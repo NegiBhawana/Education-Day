@@ -1,7 +1,7 @@
 const counters = document.querySelectorAll('.counter');
 const sectionCounter = document.querySelector('.section-counters');
 const speed = 200;
-
+// this is a comment
 const increamentCounter = function () {
   counters.forEach(counter => {
     const target = +counter.getAttribute('data-target');
