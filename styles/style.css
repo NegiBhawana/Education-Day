@@ -14,11 +14,9 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--primary-background-color);
-  background: radial-gradient(
-    circle at 8% 20%,
-    rgba(243, 255, 200, 0) 0%,
-    rgba(255, 231, 216, 1) 100%
-  );
+  background: radial-gradient(circle at 8% 20%,
+      rgba(243, 255, 200, 0) 0%,
+      rgba(255, 231, 216, 1) 100%);
   position: relative;
 }
 
@@ -39,6 +37,7 @@
   text-decoration: none;
   color: #333;
 }
+
 .logo-container {
   transition: opacity 250ms;
 }
@@ -104,10 +103,12 @@
   z-index: 99999;
   animation: transit 300ms ease-in;
 }
+
 @keyframes transit {
   0% {
     transform: translateY(-100%);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -124,11 +125,9 @@
 .section-hero {
   padding: 4.8rem 0 9.8rem 0;
   background-color: var(--primary-background-color);
-  background: radial-gradient(
-    circle at 8% 20%,
-    rgba(243, 255, 200, 0) 0%,
-    rgba(255, 231, 216, 1) 100%
-  );
+  background: radial-gradient(circle at 8% 20%,
+      rgba(243, 255, 200, 0) 0%,
+      rgba(255, 231, 216, 1) 100%);
   position: relative;
 }
 
@@ -188,6 +187,7 @@
 .countries-img {
   display: flex;
 }
+
 .countries-student img {
   height: 4.8rem;
   margin-right: -1.6rem;
@@ -203,6 +203,7 @@
   font-size: 1.8rem;
   font-weight: 600;
 }
+
 .countries-students-text span {
   font-weight: 700;
   color: var(--secondary-heading-color);
@@ -222,11 +223,9 @@
   border-radius: 8px;
   padding: 0.4rem 0.8rem;
 
-  background: linear-gradient(
-    to bottom,
-    rgb(240, 152, 25, 0.7),
-    rgb(239, 207, 79, 1)
-  );
+  background: linear-gradient(to bottom,
+      rgb(240, 152, 25, 0.7),
+      rgb(239, 207, 79, 1));
   background-color: rgb(239, 207, 79);
 }
 
@@ -278,6 +277,7 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .logos img {
   height: 3rem;
   filter: brightness(0);
@@ -296,8 +296,7 @@
   padding: 9.6rem 0;
 }
 
-.roadmap-text-box {
-}
+.roadmap-text-box {}
 
 .roadmap-stepheading {
   font-size: 3rem;
@@ -402,18 +401,15 @@
 .align--left {
   text-align: left;
 }
+
 .class-text-img {
   display: flex;
-  background: linear-gradient(
-    to left,
-    rgb(255, 244, 237, 0.5),
-    rgb(222, 93, 6, 0.4)
-  );
-  background: linear-gradient(
-    to left,
-    rgb(239, 207, 79, 0.6),
-    rgb(250, 101, 89, 0.6)
-  );
+  background: linear-gradient(to left,
+      rgb(255, 244, 237, 0.5),
+      rgb(222, 93, 6, 0.4));
+  background: linear-gradient(to left,
+      rgb(239, 207, 79, 0.6),
+      rgb(250, 101, 89, 0.6));
   padding: 2.4rem;
   border-radius: 50%;
   display: flex;
@@ -595,12 +591,10 @@
 
 .pricing-plan--popular {
   box-shadow: 0 7px 30px rgba(52, 31, 67, 0.25);
-  background: linear-gradient(
-    to bottom,
-    rgb(250, 101, 89, 0.6),
-    rgb(250, 101, 89, 0.3),
-    rgb(239, 207, 79, 0.2)
-  );
+  background: linear-gradient(to bottom,
+      rgb(250, 101, 89, 0.6),
+      rgb(250, 101, 89, 0.3),
+      rgb(239, 207, 79, 0.2));
   position: relative;
   overflow: hidden;
 }
@@ -712,16 +706,12 @@
 .cta {
   display: grid;
   grid-template-columns: 2.5fr 1.5fr;
-  background-image: linear-gradient(
-    to left bottom,
-    rgb(255, 244, 237, 1),
-    rgb(222, 93, 6, 0.9)
-  );
-  background: linear-gradient(
-    to bottom,
-    rgb(240, 152, 25, 0.7),
-    rgb(239, 207, 79, 1)
-  );
+  background-image: linear-gradient(to left bottom,
+      rgb(255, 244, 237, 1),
+      rgb(222, 93, 6, 0.9));
+  background: linear-gradient(to bottom,
+      rgb(240, 152, 25, 0.7),
+      rgb(239, 207, 79, 1));
 
   border-radius: 9px;
   overflow: hidden;
@@ -744,11 +734,9 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(
-      to right bottom,
+  background-image: linear-gradient(to right bottom,
       rgb(255, 244, 237, 0.3),
-      rgb(222, 93, 6, 0.3)
-    ),
+      rgb(222, 93, 6, 0.3)),
     url(../image/cta-img.jpg);
   background-size: cover;
   background-position: center;
@@ -891,6 +879,7 @@
 .section-counters .container {
   padding: 7.4rem 0;
 }
+
 .counter {
   font-weight: 800;
   color: #fff;
