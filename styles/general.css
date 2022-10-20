@@ -227,9 +227,9 @@ body {
   background-color: #d93b3b;
 }
 
-.lazy-img {
+/* .lazy-img {
   filter: blur(3px);
-}
+} */
 
 /* helpers */
 .margin-right-sm {
