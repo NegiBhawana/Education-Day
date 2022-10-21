@@ -356,6 +356,16 @@
   filter:grayscale(100%);
 	transition:1s; 
 }
+
+.roadmap-img-box > img {
+  width: 350px;
+  height: 300px;
+}
+
+.poster-width {
+  width: 60%;
+}
+
 .roadmap-img-box:hover{
   filter: grayscale(0);
 	transform: scale(1.1);
@@ -375,6 +385,20 @@
 .roadmap-img {
   width: 75%;
   border-radius: 8px;
+}
+
+.roadmap-img-box-poster::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 75%;
+  left: 50%;
+  transform: translate(-58%, -42%);
+  border-radius: 8px;
+  width: 75%;
+  padding-bottom: 60%;
+  background-color: #ffe066;
+  z-index: -1;
 }
 
 .roadmap-img-box::after {
