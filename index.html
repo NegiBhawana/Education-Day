@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <!-- ^ katak's link ^ -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- ^ Bootstrap's link ^ -->
 
     <script defer src="./scripts/nav.js"></script>
     <script type="module" defer src="./scripts/slider.js"></script>
@@ -829,45 +830,339 @@
         </div>
       </section> -->
 
-    <!-- 6️⃣ call to action section -->
-    <section class="section section-cta" id="call-to-action">
-      <div class="container">
-        <div class="cta">
-          <div class="cta-text-box">
-            <h2 class="heading-secondary">Schedule a Free Trial</h2>
-            <p class="cta-text">
-              Let's start your class and become the Pro. Life is one grand,
-              sweet song, so start the music.
-            </p>
 
-            <form class="form-cta" name="sign-up" netlify>
-              <div>
-                <label for="full-name">Full name</label>
-                <input type="text" name="full-name" placeholder="Harry potter" id="full-name" />
-              </div>
 
-              <div>
-                <label for="email">email</label>
-                <input type="email" name="email" placeholder="abc@gmail.com" id="email" />
-              </div>
 
-              <div>
-                <label for="select-where">Where did you here from us</label>
-                <select id="select-where" name="options">
-                  <option value="">---Please choose an option---</option>
-                  <option value="friends">Friends and family</option>
-                  <option value="youtube">Youtube</option>
-                  <option value="digital ad">Facebook</option>
-                  <option value="podcast">Podcast</option>
-                </select>
-              </div>
-              <button class="btn btn-form">Sign up now</button>
-            </form>
-          </div>
-          <div class="cta-img-box" role="img" aria-label="woman enjoying food"></div>
-        </div>
-      </div>
-    </section>
+
+               <!-- Team Members -->
+
+               <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> -->
+    
+              <!-- <section id="team" class="section-6">
+                <div class="heading">
+                  <h1>Event Coordinators</h1>
+                </div>
+                
+                <div id="carouselExampleControls" class="carousel slide" data-interval="3000" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row1">
+                        <figure class="figure">
+                          <img class="roadmap-img lazy-img" src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?cs=srgb&dl=pexels-fauxels-3184296.jpg&fm=jpg&_gl=1*1lonn69*_ga*MTc5MTk4NTY3LjE2NjYxOTAxNzE.*_ga_8JE65Q40S6*MTY2NjI4ODM4Mi4zLjEuMTY2NjI4ODQwMS4wLjAuMA.."
+          alt="" />
+                          <figcaption>
+                            <h3>Mohit Aneja</h3>
+                            <p>Event Coordinator</p>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/mohit-aneja-008a86175/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:9582602603"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img class="roadmap-img lazy-img" src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?cs=srgb&dl=pexels-fauxels-3184296.jpg&fm=jpg&_gl=1*1lonn69*_ga*MTc5MTk4NTY3LjE2NjYxOTAxNzE.*_ga_8JE65Q40S6*MTY2NjI4ODM4Mi4zLjEuMTY2NjI4ODQwMS4wLjAuMA.."
+          alt="" />
+                          <figcaption>
+                            <h3>Srishti Jain</h3>
+                            <p>Event Coordinator</p>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/srishti-jain-092710173/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:8178006872"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/Yatin.jpeg">
+                          <figcaption>
+                            <h3>Yatin Dawan</h3>
+                            <p>Event Coordinator</p>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/yatin-dhawan-2430aa1a3/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:8800282376"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/Dev.jpeg">
+                          <figcaption>
+                            <h3>Dev Garg</h3>
+                            <p>Event Coordinator</p>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/dev-garg-a5b012182/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:9717287202"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row1">
+                        <figure class="figure">
+                          <img src="img/jasleen.jpeg">
+                          <figcaption>
+                            <h3>Jasleen Kaur</h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">Group Discussion</h4>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/jasleen-kaur-65818a205/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:7291817280"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/naman.jpeg">
+                          <figcaption>
+                            <h3>Naman Bhateja</h3>
+                            <p>Event Coordinator</p>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/jasleen-kaur-65818a205/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:7291817280"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/Faisal.jpeg">
+                          <figcaption>
+                            <h3>MD Faisal Hoda</h3>
+                            <p>Event Coordinator</p>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/md-faisal-hoda-62b4b11ab/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:9821511386"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/harshit.jpeg">
+                          <figcaption>
+                            <h3>Harshit Mathur</h3>
+                            <p>Event Coordinator</p>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/mathur-harshit/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:8700645565"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row1">
+                        <figure class="figure">
+                          <img src="img/shivam.jpeg">
+                          <figcaption>
+                            <h3>Shivam Jain</h3>
+                            <p>Event Coordinator</p>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/shivamjain9990339112/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:99903 39112"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/r.jpg">
+                          <figcaption>
+                            <h3>Rohitashwa</h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">AD-MAD</h4>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="tel:9870590639"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/komal.jpeg">
+                          <figcaption>
+                            <h3>Komal Aggarwal</h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">Reel Making</h4>
+                            <div class="d-flex" style="gap: 10px;">
+                              <!-- <a href="https://www.linkedin.com/in/shivamjain9990339112/"><i class="fab fa-linkedin fa-2x"></i></a> -->
+                              <!-- <a href="tel:9540615692"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/Abhay.jpg">
+                          <figcaption>
+                            <h3>Abhay Yadav</h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">Nukkad Natak</h4>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/abhay-yadav-23a108227/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:7088751301"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row1">
+                        <figure class="figure">
+                          <img src="img/Mukul.jpg">
+                          <figcaption>
+                            <h3>Mukul Bisht</h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">Volleyball</h4>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/mukul-bisht-0403921bb/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:8745014346"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/bhumi batra.jpeg">
+                          <figcaption>
+                            <h3>Bhumi Batra</h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">CV Writing</h4>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/bhumi-batra-61a846203"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:9315205070"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/simran.jpg">
+                          <figcaption>
+                            <h3>Simran Gulati</h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">Group Dance</h4>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/simrangulati10/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:8447642472"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/khushi babbar.jpeg">
+                          <figcaption>
+                            <h3>Khushi Babbar</h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">Debate</h4>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/khushi-babbar-79aa071ba/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:9873406247"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row1">
+                        <figure class="figure">
+                          <img src="img/Aarti - Aarti bansal.webp">
+                          <figcaption>
+                            <h3>Aarti Aggarwal</h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">Photography</h4>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/aarti-aggarwal-3b86761a8/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:7838585592"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/manav.jpg">
+                          <figcaption>
+                            <h3>Manav Guleria</h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">Cartoon Making</h4>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/manav-guleria-b88b15226/"><i class="fab fa-linkedin fa-2x"></i></a>
+                              <a href="tel:8700629009"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/ananya.png">
+                          <figcaption>
+                            <h3>Ananya Arora</h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">Piece To Camera</h4>
+                            <div class="d-flex" style="gap: 10px;"> -->
+                              <!-- <a href="https://www.linkedin.com/in/simrangulati10/"><i class="fab fa-linkedin fa-2x"></i></a> -->
+                              <!-- <a href="tel:96502 52130"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        <figure class="figure">
+                          <img src="img/PrachiHuria - prachi huria.jpeg">
+                          <figcaption>
+                            <h3>Prachi Huria </h3>
+                            <p>Event Coordinator</p>
+                            <h4 class="Nicks">Radio Jockey</h4>
+                            <div class="d-flex" style="gap: 10px;">
+                              <a href="https://www.linkedin.com/in/khushi-babbar-79aa071ba/"><i class="fab fa-linkedin fa-2x"></i></a> -->
+                              <!-- <a href="tel:9643107097"><i class="fas fa-phone fa-2x green-text"></i></a>
+                            </div>
+                          </figcaption>
+                          <a href="#"></a>
+                        </figure>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon text-dark h3 font-weight-bold" aria-hidden="true"><</span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon text-dark h3 font-weight-bold" aria-hidden="true">></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                
+              </section> --> -->
+
+
+
+
+
 
     <!-- --last❌ ---->
   </main>
@@ -903,8 +1198,9 @@
           </li>
         </ul>
 
+
         <p class="copyright">
-          Copyright &copy; 2022 by Gitrarzilla, Inc. All rights reserved
+          Copyright &copy; 2022  Bharati Vidyapeeth's Institute of Computer Applications and Management
         </p>
       </div>
       <div class="address-col">
