@@ -10,19 +10,19 @@
 
 .header {
   display: flex;
-  height: 9.5rem;
-  padding: 0 6.4rem;
+  height: 9.8rem;
+  padding: 0 6.5rem;
   align-items: center;
   justify-content: space-between;
   background-color: var(--primary-background-color);
-  background: radial-gradient(circle at 8% 20%,
+  background: radial-gradient(circle at 9% 20%,
       rgba(213, 218, 218, 0) 0%,
       rgb(125, 199, 55) 100%);
   position: relative;
 }
 
 .logo {
-  height: 6rem;
+  height: 4rem;
   margin-right: 3px;
 }
 
@@ -31,9 +31,9 @@
   display: flex;
   margin-left: 4.5rem;
   align-items: center;
-  font-size: 3rem;
-  font-weight: 600;
-  letter-spacing: 0.14rem;
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
   font-family: 'Spicy Rice', cursive;
   text-decoration: none;
   color: #333;
@@ -59,8 +59,8 @@
   text-decoration: none;
   display: inline-block;
   color: #333;
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 1.9rem;
+  font-weight: 750;
   transition: opacity 250ms;
 }
 
