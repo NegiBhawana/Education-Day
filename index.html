@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="./image/logo-title.webp">
-  <link rel="stylesheet" href="./styles/general.css" />
-  <link rel="stylesheet" href="./styles/style.css" />
-  <link rel="stylesheet" href="./styles/responsive.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
 
-  <script defer src="./scripts/nav.js"></script>
-  <script type="module" defer src="./scripts/slider.js"></script>
-  <script defer src="./scripts/lazyLoading.js"></script>
-  <script defer src="./scripts/counter.js"></script>
-  <script defer src="./scripts/script.js"></script>
-  <title>Education day</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./image/logo-title.webp">
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 
-<body>
-  <header class="header">
-    <div class="logo-container">
-      <a href="#hero-section">
-        <img class="logo" src="./image/BVICAM logo-1.png" alt="logo" />
-      </a>
-    </div>
-    <nav class="main-nav">
-      <ul class="main-nav-list">
-        <!-- <li><a href="#roadmap-section" class="main-nav-link">Roadmap</a></li>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- ^ katak's link ^ -->
+
+    <script defer src="./scripts/nav.js"></script>
+    <script type="module" defer src="./scripts/slider.js"></script>
+    <script defer src="./scripts/lazyLoading.js"></script>
+    <script defer src="./scripts/counter.js"></script>
+    <script defer src="./scripts/timer.js"></script>
+    <title>Education day</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <a href="#hero-section">
+          <img class="logo" src="./image/BVICAM logo-1.png" alt="logo" />
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <!-- <li><a href="#roadmap-section" class="main-nav-link">Roadmap</a></li>
 
           <li><a href="#what-we-offer" class="main-nav-link">What we offer</a></li>
           <li><a href="#testimonial-section" class="main-nav-link">Testimonials</a></li>
@@ -61,7 +65,30 @@
               lullaby. Strum like you want as long as it’s right. Do it at your
               own pace and choose your own time.
             </p> -->
-          <a href="#pricing-section" class="btn btn--full margin-right-sm btn__startlearnig">REGISTER NOW</a>
+            <section class="countdown-container">
+  
+              <div class="days-container">
+                <div class="days"></div>
+                <div class="days-label">days</div>
+              </div>
+              
+              <div class="hours-container">
+                <div class="hours"></div>
+                <div class="hours-label">hours</div>
+              </div>
+              
+              <div class="minutes-container">
+                <div class="minutes"></div>
+                <div class="minutes-label">minutes</div>
+              </div>
+              
+              <div class="seconds-container">
+                <div class="seconds"></div>
+                <div class="seconds-label">seconds</div>
+              </div>
+              
+            </section>
+          <a href="#pricing-section" class="btn register-btn btn--full margin-right-sm btn__startlearnig">REGISTER NOW</a>
 
 
           <!-- <div class="countries-student">
@@ -90,11 +117,14 @@
           </div> -->
 
           <!-- right side of the hero section -->
-          <div class="hero-img-box">
-            <img class="hero-img lazy-img" src="./image/2730.JPG" alt="beatiful women playing Guitar" />
-
-
-          </div>
+          <!-- <div class="hero-img-box"> -->
+            <!-- <img
+              class="hero-img lazy-img"
+              src="./image/2730.JPG"
+              alt="beatiful women playing Guitar" />
+               -->
+       
+          <!-- </div> -->
         </div>
     </section>
 
@@ -104,17 +134,16 @@
         <div class="feature-box grid--4-cols">
           <!-- features -->
           <div class="feature">
-            <img class="feature-img" src="./image/Feature img/musical-note-music-svgrepo-com.svg" alt="" />
             <div>
-              <h3 class="feature-heading">Chords</h3>
+              <h3 class="feature-heading">About Education Day </h3>
               <p class="feature-text">
-                A chord progression is a series of chords played in a
-                sequence.
+                <strong> Date </strong>: 11th November 2022
               </p>
+              <p class ="event-time"><strong>Event Time</strong> : 8am onwards</p>
             </div>
           </div>
           <!-- 2 -->
-          <div class="feature">
+          <!-- <div class="feature">
             <img class="feature-img" src="./image/Feature img/stack-layered.svg" alt="" />
             <div>
               <h3 class="feature-heading">Technique</h3>
@@ -123,9 +152,9 @@
                 Bends, Slides, Vibrato.
               </p>
             </div>
-          </div>
+          </div> -->
           <!-- 3 -->
-          <div class="feature">
+          <!-- <div class="feature">
             <img class="feature-img" src="./image/Feature img/page-svgrepo-com.svg" alt="" />
             <div>
               <h3 class="feature-heading">Theory</h3>
@@ -133,9 +162,9 @@
                 Learn Guitar theroy Major, Minor, Augmented etc.
               </p>
             </div>
-          </div>
+          </div> -->
           <!-- 4 -->
-          <div class="feature">
+          <!-- <div class="feature">
             <img class="feature-img" src="./image/Feature img//microphone-svgrepo-com.svg" alt="" />
             <div>
               <h3 class="feature-heading">Solo</h3>
@@ -143,7 +172,7 @@
                 Learn to play Solo,or in team.Give performance in stage
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -157,27 +186,28 @@
       <!-- 1 -->
       <div class="container grid grid--2-cols grid-center-v section">
         <div class="roadmap-text-box">
-          <p class="roadmap-stepheading">Get Started</p>
-          <h3 class="heading-tertiory">Choose your Leaning path</h3>
+          <!-- <p class="roadmap-stepheading">Get Started</p> -->
+          <h3 class="heading-tertiory">Group Discussion</h3>
           <p class="roadmap-description">
             Our online and offline guitar classes and advanced learning
             systems help you get started and take you where you want to
             go!Guitar lessons for beginners to advance
           </p>
+          <a href="https://codepen.io/trending"  target="_blank" class="button">Register Now</a>
+
         </div>
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img" src="./image/Roadmap/roadmap-1-lazyload.jpg"
-            data-src="./image/Roadmap/roadmap-1.jpg" alt="" />
+          <img class="roadmap-img lazy-img" src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?cs=srgb&dl=pexels-fauxels-3184296.jpg&fm=jpg&_gl=1*1lonn69*_ga*MTc5MTk4NTY3LjE2NjYxOTAxNzE.*_ga_8JE65Q40S6*MTY2NjI4ODM4Mi4zLjEuMTY2NjI4ODQwMS4wLjAuMA.."
+          alt="" />
         </div>
 
         <!-- 2-->
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img" src="./image/Roadmap/roadmap-2-lazy-load.jpg"
-            data-src="./image/Roadmap/roadmap-2.jpg" alt="" />
+          <img class="roadmap-img lazy-img" src="https://images.pexels.com/photos/6949393/pexels-photo-6949393.jpeg?cs=srgb&dl=pexels-werner-pfennig-6949393.jpg&fm=jpg&_gl=1*1g6cip9*_ga*MTc5MTk4NTY3LjE2NjYxOTAxNzE.*_ga_8JE65Q40S6*MTY2NjI5MTMwOS40LjEuMTY2NjI5MTM0NC4wLjAuMA.."alt="" />
         </div>
         <div class="roadmap-text-box section">
-          <p class="roadmap-stepheading">Choose Your Path</p>
-          <h3 class="heading-tertiory">Music Genres & Playing Styles</h3>
+          <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
+          <h3 class="heading-tertiory">Debate</h3>
           <p class="roadmap-description">
             Learn to play guitar in your favorite music genres or dive into
             our skill-based guitar courses for help with specific techniques
@@ -187,31 +217,72 @@
 
         <!-- 3 -->
         <div class="roadmap-text-box section">
-          <p class="roadmap-stepheading">Learn to Play Songs</p>
-          <h3 class="heading-tertiory">Library Of Popular Songs</h3>
+          <!-- <p class="roadmap-stepheading">Learn to Play Songs</p> -->
+          <h3 class="heading-tertiory">Short Film Making</h3>
           <p class="roadmap-description">
             Explore a song library that covers every skill level and music
             style and learn to play your favorite songs on guitar
           </p>
         </div>
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img" src="./image/Roadmap/roadmap-3-lazyload.jpg"
-            data-src="./image/Roadmap/roadmap-3.webp" alt="" />
+          <img class="roadmap-img lazy-img" src="https://images.pexels.com/photos/9834137/pexels-photo-9834137.jpeg?cs=srgb&dl=pexels-cottonbro-9834137.jpg&fm=jpg&_gl=1*1cectpx*_ga*MTc5MTk4NTY3LjE2NjYxOTAxNzE.*_ga_8JE65Q40S6*MTY2NjI5MTMwOS40LjEuMTY2NjI5MTQyNC4wLjAuMA.." alt="" />
         </div>
 
         <!-- 4 -->
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img" src="./image/Roadmap/roadmap-4-lazyload.jpg"
-            data-src="./image/Roadmap/roadmap-4.webp" alt="" />
+          <img class="roadmap-img lazy-img" src="https://images.pexels.com/photos/270288/pexels-photo-270288.jpeg?auto=compress&cs=tinysrgb&w=600"alt="" />
         </div>
         <div class="roadmap-text-box section">
-          <p class="roadmap-stepheading">Find Inspiration.</p>
-          <h3 class="heading-tertiory">Guitar Lessons With The Pros</h3>
+          <!-- <p class="roadmap-stepheading">Find Inspiration.</p> -->
+          <h3 class="heading-tertiory">Radio Jockeying</h3>
           <p class="roadmap-description">
             Learn guitar from the pros! Leverage the real-world knowledge of
             top studio and touring artists across all styles of music
           </p>
         </div>
+
+        <!-- 5 -->
+        <div class="roadmap-img-box section">
+          <img class="roadmap-img lazy-img" src="https://images.pexels.com/photos/1766236/pexels-photo-1766236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+        </div>
+        <div class="roadmap-text-box section">
+          <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
+          <h3 class="heading-tertiory">Poster Making</h3>
+          <p class="roadmap-description">
+            Learn to play guitar in your favorite music genres or dive into
+            our skill-based guitar courses for help with specific techniques
+            and music theory
+          </p>
+        </div>
+
+        <!-- 6 -->
+        <div class="roadmap-img-box section">
+          <img class="roadmap-img lazy-img" src="https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+        </div>
+        <div class="roadmap-text-box section">
+          <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
+          <h3 class="heading-tertiory">Coding Competition</h3>
+          <p class="roadmap-description">
+            Learn to play guitar in your favorite music genres or dive into
+            our skill-based guitar courses for help with specific techniques
+            and music theory
+          </p>
+        </div>
+
+        <!-- 7 -->
+        <div class="roadmap-img-box section">
+          <img class="roadmap-img lazy-img" src="https://images.unsplash.com/photo-1548502499-ef49e8cf98d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+        </div>
+        <div class="roadmap-text-box section">
+          <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
+          <h3 class="heading-tertiory">Photography</h3>
+          <p class="roadmap-description">
+            Learn to play guitar in your favorite music genres or dive into
+            our skill-based guitar courses for help with specific techniques
+            and music theory
+          </p>
+        </div>
+        
       </div>
     </section>
 
@@ -579,31 +650,160 @@
     </div>
     </div> -->
 
+
+    <!-- Table One Starts  -->
+    <section class="section section-cta" id="call-to-action">
     <div class="container">
       <h1> Day 1</h1>
       <h3>(11th November 2022)</h3>
+      <div class="table1">
       <table class="table table-hover">
         <thead>
           <tr>
             <th>#</th>
-            <th>Firstname</th>
+            <th>Event</th>
+            <th>Time</th>
+            <th>Event Heads</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>1</td>
-            <td>Anna</td>
+            <td>Hackathon</td>
+            <td>8:00am - 8:00pm</td>
+            <td>
+              <li>Yatin Dhawan - 8800282376</li>
+              <li>Mohit Aneja - 9582602603</li>
+            </td>
           </tr>
           <tr>
             <td>2</td>
-            <td>Debbie</td>
+              <td>Nukkad Natak</td>
+              <td>11:00am Onwards</td>
+              <td>
+                <li>Prachi Huria- 9643107097</li>
+                <li>Abhay Yadav- 7088751301</li>
+              </td>
           </tr>
           <tr>
             <td>3</td>
-            <td>John</td>
+              <td>Ad-MAD</td>
+              <td>11:00am Onwards</td>
+              <td>
+                <li>Rohitashwa - 9870590639</li>
+                <li>Vidita Verma - 9810239738</li>
+              </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Reel Making </td>
+            <td>11:00am Onwards</td>
+            <td>
+              <li>Komal Aggarwal - 9540615692</li>
+              <li>Pragya Mathur- 9953759818</li>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Volleyball</td>
+            <td>11:00am Onwards</td>
+            <td>
+              <li>Mukul Bisht- 8745014346</li>
+              <li>Toshiet Daksh- 9818572712</li>
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Poster Making</td>
+            <td>11:00am Onwards</td>
+            <td>
+              <li>Devanshi - 9667196843</li>
+              <li>Harleen Kaur - 9817664972</li>
+              <li>Aarti – 7838585592</li>
+            </td>
           </tr>
         </tbody>
       </table>
+    </div>
+  </section>
+    <!-- Table One Ends  -->
+
+    <!-- Table Two Starts  -->
+    <section class="section section-cta" id="call-to-action">
+      <div class="container">
+        <h1> Day 2</h1>
+        <h3>(12th November 2022)</h3>
+        <div class="table1">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Event</th>
+              <th>Time</th>
+              <th>Event Heads</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Hackathon</td>
+              <td>8:00am - 8:00pm</td>
+              <td>
+                <li>Yatin Dhawan - 8800282376</li>
+                <li>Mohit Aneja - 9582602603</li>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+                <td>Nukkad Natak</td>
+                <td>11:00am Onwards</td>
+                <td>
+                  <li>Prachi Huria- 9643107097</li>
+                  <li>Abhay Yadav- 7088751301</li>
+                </td>
+            </tr>
+            <tr>
+              <td>3</td>
+                <td>Ad-MAD</td>
+                <td>11:00am Onwards</td>
+                <td>
+                  <li>Rohitashwa - 9870590639</li>
+                  <li>Vidita Verma - 9810239738</li>
+                </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Reel Making </td>
+              <td>11:00am Onwards</td>
+              <td>
+                <li>Komal Aggarwal - 9540615692</li>
+                <li>Pragya Mathur- 9953759818</li>
+              </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Volleyball</td>
+              <td>11:00am Onwards</td>
+              <td>
+                <li>Mukul Bisht- 8745014346</li>
+                <li>Toshiet Daksh- 9818572712</li>
+              </td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Poster Making</td>
+              <td>11:00am Onwards</td>
+              <td>
+                <li>Devanshi - 9667196843</li>
+                <li>Harleen Kaur - 9817664972</li>
+                <li>Aarti – 7838585592</li>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+      <!-- Table Two Ends  -->
     </div>
 
     <div class="container grid">
@@ -864,6 +1064,7 @@
   <!-- <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script> -->
   <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+  
 </body>
 
 </html>
