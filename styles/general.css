@@ -56,7 +56,7 @@ medium:11px
 
 :root {
   --primary-background-color: #fff4ed;
-  --btn-color: #fa6559;
+  --btn-color:#99e03bbd;
   --primary-heading-color: #0c4b65;
   --secondary-heading-color: #c25934;
   --primary-font: 'Open Sans', sans-serif;
@@ -73,7 +73,7 @@ body {
 
   line-height: 1;
   font-weight: 500;
-  color: #555;
+  color:black;
   overflow-x: hidden;
 }
 
@@ -142,6 +142,7 @@ body {
   line-height: 1.05;
   margin-bottom: 3.2rem;
   font-weight: 800;
+
 }
 
 .heading-secondary {
