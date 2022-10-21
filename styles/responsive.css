@@ -322,7 +322,7 @@
   }
 
   .hero {
-    padding: 0 3.2rem;
+    /* padding: 0 3.2rem; */
   }
 
   .hero-description {
@@ -338,7 +338,7 @@
   .hero {
     max-width: 70rem;
     margin: 0 auto;
-    padding: 0 3.2rem;
+    /* padding: 0 3.2rem; */
     display: grid;
     grid-template-columns: 55fr 45fr;
     align-items:center;
