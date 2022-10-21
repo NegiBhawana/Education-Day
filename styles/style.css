@@ -356,6 +356,11 @@
   filter:grayscale(100%);
 	transition:1s; 
 }
+
+.poster-width {
+  width: 75%;
+}
+
 .roadmap-img-box:hover{
   filter: grayscale(0);
 	transform: scale(1.1);
