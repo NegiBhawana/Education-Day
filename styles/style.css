@@ -152,7 +152,7 @@
 .hero {
   max-width: 130rem;
   margin: 0 auto;
-  padding: 0 3.2rem;
+  /* padding: 0 3.2rem; */
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items:center;
@@ -327,7 +327,7 @@
 /* SECTION ROADMAP*/
 /* ******************************* */
 .section-roadmap {
-  padding: 9.6rem 0;
+   padding: 4rem 0; 
 }
 
 .section-roadmap .heading-secondary{
@@ -764,7 +764,7 @@
 /* ******************************* */
 
 .section-cta {
-  padding: 9.6rem 0 12.8rem 0;
+  /* padding: 9.6rem 0 12.8rem 0; */
 }
 
 .cta {
@@ -1156,5 +1156,145 @@
   font-size: 135%;
 }
 
+/* overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  top: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 45vw;
+  height: 65vh;
+  position: relative;
+  transition: all 5s ease-in-out;
+  overflow-y: auto;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  word-break: break-all;
+}
+
+
 /* slider */
+.slider {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 1em;
+  width: 800px;
+  height: 500px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
+      -webkit-tap-highlight-color: transparent;
+
+}
+
+.img-container {
+  display: flex;
+  transition: transform 300ms ease-in-out;
+}
+
+.fa-solid {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  opacity: 0.75;
+  transition: opacity 100ms ease-in-out;
+  z-index: 100;
+}
+
+.fa-solid:hover {
+  opacity: 1;
+}
+
+.previous {
+  left: 4.5rem;
+}
+
+.next {
+  right: 4.5rem;
+}
+
+/* SLIDER */
+
+.variety_outfit{
+  margin-top: 2rem ;
+  background-color: white;
+  margin-bottom: 3rem;
+ 
+ }
+ .swiper {
+     position: relative;
+     width: 100%;
+     padding-top: 20px;
+     padding-bottom: 20px;
+   }
+ 
+   .swiper-slide {
+     
+     background-position: center;
+     background-size: cover;
+     width: 300px;
+     height: 400px;
+   }
+ .variety_outfit h1{
+     text-align: center;
+ }
+   .swiper-slide img {
+     display: block;
+     width: 100%;
+   }
+ .outfit1{
+     position: absolute;
+     top: 80%;
+     left: 30%;
+ 
+ }
+ 
+ .outfit1 a{
+     background-color: #A63355;
+     font-weight: bold;
+     padding:10px 12px;
+     border-radius: 10px;
+ }
+ .outfit1 a:hover{
+     color: white;
+ }
 
