@@ -947,6 +947,7 @@
 }
 
 
+
 /* timer */
 .countdown-container {
   display: flex;
@@ -1007,3 +1008,6 @@
   }
 }
 
+.table1{
+  font-size: 135%;
+}
