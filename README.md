@@ -1,3 +1,3 @@
 # Education Day Website
 
-### Created using HTML CSS AND VANILLA JAVASCRIPT
+### Created using blood and sweat of juniors jinhe credit bhi nahi mila...
