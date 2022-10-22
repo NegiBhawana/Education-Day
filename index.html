@@ -59,8 +59,9 @@
           <li><a href="#roadmap-section" class="main-nav-link">EVENTS</a></li>
 
           <li><a href="#call-to-action" class="main-nav-link">SCHEDULE</a></li>
-          <li><a href="#faqsection" class="main-nav-link">FAQ</a></li>
+          
           <li><a href="#coordinator" class="main-nav-link">TEAM</a></li>
+          <li><a href="#faqsection" class="main-nav-link">FAQ</a></li>
           <!-- <li>
 
             <a href="#call-to-action" class="main-nav-link nav-cta btn btn--full"
@@ -230,7 +231,7 @@
         <div class="roadmap-img-box section">
           <img class="roadmap-img lazy-img" src="https://media.tenor.com/fotsqZtM9ZoAAAAd/arnab-goswami.gif" alt="" />
         </div>
-        <div class="roadmap-text-box section">
+        <div class="roadmap-text-box section" id ="debate">
           <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
           <h3 class="heading-tertiory">Debate</h3>
 
@@ -774,6 +775,7 @@
           </tr>
         </tbody>
       </table>
+      </div>
     </div>
   </section>
 
@@ -1590,7 +1592,7 @@
     </div>
 
   <section class="slider-container" id="coordinator">
-    <h2>Coordinators</h2>
+    <h2>COORDINATOR TEAM</h2>
     <div class="container">
       <div class="swiper  card_slider">
         <div class="swiper-wrapper">
@@ -1600,7 +1602,10 @@
               <div class="img-content">
                 <h3>Abhimanyu </h3>
                 <a href="https://www.linkedin.com/in/abhimanyu-sharma-35435b17b/" target="_blank" class="link">
-                  <ion-icon name="logo-linkedin"></ion-icon>
+                  <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/abhimanyusama?r=nametag" target="_blank">
+                  <ion-icon name="logo-instagram" size="large"></ion-icon>
                 </a>
               </div>
             </div>
@@ -1611,8 +1616,12 @@
               <div class="img-content">
                 <h3>Bhawana</h3>
                 <a href="https://www.linkedin.com/in/bvicam-new-delhi-43a5b2226" target="_blank">
-                  <ion-icon name="logo-linkedin"></ion-icon>
+                  <ion-icon name="logo-linkedin" size="large"></ion-icon>
                 </a>
+                <a href="https://instagram.com/bhawna6168?r=nametag" target="_blank">
+                  <ion-icon name="logo-instagram" size="large"></ion-icon>
+                </a>
+                
               </div>
             </div>
           </div>
@@ -1622,7 +1631,10 @@
               <div class="img-content">
                 <h3>Kartik P S</h3>
                 <a href="https://www.linkedin.com/in/kartik-p-s-5782261b6/" target="_blank">
-                  <ion-icon name="logo-linkedin"></ion-icon>
+                  <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/entropy_hub/" target="_blank">
+                  <ion-icon name="logo-instagram" size="large"></ion-icon>
                 </a>
               </div>
             </div>
@@ -1633,7 +1645,10 @@
               <div class="img-content">
                 <h3>Sarthak Gudwani</h3>
                 <a href="https://www.linkedin.com/in/sarthak-gudwani-04247618a/" target="_blank">
-                  <ion-icon name="logo-linkedin"></ion-icon>
+                  <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/sarthakgudwani/" target="_blank">
+                  <ion-icon name="logo-instagram" size="large"></ion-icon>
                 </a>
               </div>
             </div>
@@ -1644,7 +1659,10 @@
               <div class="img-content">
                 <h3>Saumya</h3>
                 <a href="https://www.linkedin.com/in/saumya-aggarwal-3b333b208/" target="_blank">
-                  <ion-icon name="logo-linkedin"></ion-icon>
+                  <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/sarthakgudwani/" target="_blank">
+                  <ion-icon name="logo-instagram" size="large"></ion-icon>
                 </a>
               </div>
             </div>
@@ -1655,7 +1673,10 @@
               <div class="img-content">
                 <h3>Shweta</h3>
                 <a href="https://www.linkedin.com/in/kumari-shweta-577098216/" target="_blank">
-                  <ion-icon name="logo-linkedin"></ion-icon>
+                  <ion-icon name="logo-linkedin" size="large"></ion-icon>
+                </a>
+                <a href="#" target="_blank">
+                  <ion-icon name="logo-instagram" size="large"></ion-icon>
                 </a>
               </div>
             </div>
@@ -1950,7 +1971,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script type="text/javascript">
     var swiper = new Swiper(".card_slider", {
-        slidesPerView: 3,
+        slidesPerView: (window.innerWidth<500)?1:3,
         spaceBetween: 30,
         slidesPerGroup: 3,
         loop: true,
