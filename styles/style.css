@@ -18,7 +18,7 @@
   background-color: var(--primary-background-color);
   background: radial-gradient(circle at 8% 20%,
       rgba(213, 218, 218, 0) 0%,
-      rgb(125, 199, 55) 100%);
+      rgb(125, 199, 55) 100%);  
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -26,7 +26,7 @@
 }
 
 .logo {
-  height: 20rem;
+  height: 7rem;
   margin-right: 3px;
 }
 
@@ -336,7 +336,14 @@
 
 .section-roadmap .heading-secondary{
   text-align: center;
+  font-size: 3.5rem;
   
+}
+
+.date{
+  font-size: 3rem;
+  font-weight: bold;
+  color:#070c01bd;
 }
 
 
@@ -420,7 +427,7 @@
 }
 
 .button {
-  background-color: #1c87c9;
+  background-color:#99e03bbd;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -467,6 +474,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.schedule{
+  color: var(--primary-heading-color);
 }
 
 /*  */
