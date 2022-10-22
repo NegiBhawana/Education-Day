@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Spicy+Rice&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
 /*  #ffe9db/
 /* #fff4ed  
 #efcf4f*/
@@ -1287,9 +1288,81 @@
      color: white;
  }
 
+
+/* Footer color for sake of consistency with Navbar */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+footer{
+  background-color: #525252;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+  margin-top: auto;
+}
+
+footer li{
+  list-style: none;
+  margin: 10px;
+  display: inline-block;
+}
+
+.icons a{
+  background: #A8FE39;
+  color: #272727;
+  padding: 14px;
+  font-size: 20px;
+  border-radius: 100%;
+  display: flex;
+}
+.icons a:hover{
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.menu a{
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.menu a:hover{
+  color: #52527a;
+  transition: 0.5s;
+}
+
+.footer-copyright{
+  background-color:#52527a;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+.footer-copyright p{
+  margin-bottom: 0px;
+}
+
 .section-cta h1{
   text-transform: uppercase;
   text-align: center;
   font-weight: bolder;
 }
+
 
