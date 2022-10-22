@@ -2,58 +2,61 @@
 <html lang="en">
 
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./image/logo-title.webp">
-    <link rel="stylesheet" href="./styles/general.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/responsive.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./image/logo-title.webp">
+  <link rel="stylesheet" href="./styles/general.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/style.css">
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <!-- ^ Bootstrap's link ^ -->
+
+  <script defer src="./scripts/nav.js"></script>
+  <script type="module" defer src="./scripts/slider.js"></script>
+  <script defer src="./scripts/lazyLoading.js"></script>
+  <script defer src="./scripts/counter.js"></script>
+  <script defer src="./scripts/timer.js"></script>
+  <script defer src="./scripts/script.js"></script>
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- ^ Bootstrap's link ^ -->
 
-    <script defer src="./scripts/nav.js"></script>
-    <script type="module" defer src="./scripts/slider.js"></script>
-    <script defer src="./scripts/lazyLoading.js"></script>
-    <script defer src="./scripts/counter.js"></script>
-    <script defer src="./scripts/timer.js"></script>
-    <script defer src="./scripts/script.js"></script>
-    <!-- swiper -->
-    <link
-    rel="stylesheet"
-    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-  />
-         <!-- jquery -->
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  
-    
+  <title>Education day</title>
+</head>
 
-    <title>Education day</title>
-  </head>
+<body>
+  <header class="header">
+    <div class="logo-container">
+      <a href="#hero-section">
+        <img class="logo" src="./image/BVICAM logo-1.png" alt="logo" />
+      </a>
+    </div>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a href="#roadmap-section" class="main-nav-link">EVENTS</a></li>
 
-  <body>
-    <header class="header">
-      <div class="logo-container">
-        <a href="#hero-section">
-          <img class="logo" src="./image/BVICAM logo-1.png" alt="logo" />
-        </a>
-      </div>
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li><a href="#roadmap-section" class="main-nav-link">EVENTS</a></li>
-
-          <li><a href="#section section-cta" class="main-nav-link">SCHEDULE</a></li>
-          <li><a href="#main-wrapper" class="main-nav-link">FAQ</a></li>
-          <li><a href="#pricing-section" class="main-nav-link">TEAM</a></li>
-          <!-- <li>
+        <li><a href="#section section-cta" class="main-nav-link">SCHEDULE</a></li>
+        <li><a href="#main-wrapper" class="main-nav-link">FAQ</a></li>
+        <li><a href="#pricing-section" class="main-nav-link">TEAM</a></li>
+        <!-- <li>
             <a href="#call-to-action" class="main-nav-link nav-cta btn btn--full"
               >Get free trial</a
             >
@@ -78,30 +81,31 @@
               lullaby. Strum like you want as long as it’s right. Do it at your
               own pace and choose your own time.
             </p> -->
-            <section class="countdown-container">
-  
-              <div class="days-container">
-                <div class="days"></div>
-                <div class="days-label">days</div>
-              </div>
-              
-              <div class="hours-container">
-                <div class="hours"></div>
-                <div class="hours-label">hours</div>
-              </div>
-              
-              <div class="minutes-container">
-                <div class="minutes"></div>
-                <div class="minutes-label">minutes</div>
-              </div>
-              
-              <div class="seconds-container">
-                <div class="seconds"></div>
-                <div class="seconds-label">seconds</div>
-              </div>
-              
-            </section>
-          <a href="#pricing-section" class="btn register-btn btn--full margin-right-sm btn__startlearnig">REGISTER NOW</a>
+          <section class="countdown-container">
+
+            <div class="days-container">
+              <div class="days"></div>
+              <div class="days-label">days</div>
+            </div>
+
+            <div class="hours-container">
+              <div class="hours"></div>
+              <div class="hours-label">hours</div>
+            </div>
+
+            <div class="minutes-container">
+              <div class="minutes"></div>
+              <div class="minutes-label">minutes</div>
+            </div>
+
+            <div class="seconds-container">
+              <div class="seconds"></div>
+              <div class="seconds-label">seconds</div>
+            </div>
+
+          </section>
+          <a href="#pricing-section" class="btn register-btn btn--full margin-right-sm btn__startlearnig">REGISTER
+            NOW</a>
 
 
           <!-- <div class="countries-student">
@@ -131,12 +135,12 @@
 
           <!-- right side of the hero section -->
           <!-- <div class="hero-img-box"> -->
-            <!-- <img
+          <!-- <img
               class="hero-img lazy-img"
               src="./image/2730.JPG"
               alt="beatiful women playing Guitar" />
                -->
-       
+
           <!-- </div> -->
         </div>
     </section>
@@ -198,100 +202,109 @@
       </div>
       <div class="container grid grid--2-cols grid-center-v section">
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img" src="https://preview.redd.it/ss0nt3j7m6591.png?width=1920&format=png&auto=webp&s=084e3376f98961d6ae0e6ea4bc455b42643d59b6"alt="" />
+          <img class="roadmap-img lazy-img"
+            src="https://preview.redd.it/ss0nt3j7m6591.png?width=1920&format=png&auto=webp&s=084e3376f98961d6ae0e6ea4bc455b42643d59b6"
+            alt="" />
         </div>
 
         <div class="roadmap-text-box">
           <!-- <p class="roadmap-stepheading">Get Started</p> -->
           <h3 class="heading-tertiory">Group Discussion</h3>
-          
-          <a href="https://codepen.io/trending"  target="_blank" class="button">Register Now</a>
-          <a href="#rules-gd" class ="button"><span style="color: white;">Rules</span></a>
+
+          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
+          <a href="#rules-gd" class="button"><span style="color: white;">Rules</span></a>
 
         </div>
-       
-        
+
+
         <!-- 2-->
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img" src="https://media.tenor.com/fotsqZtM9ZoAAAAd/arnab-goswami.gif"alt="" />
+          <img class="roadmap-img lazy-img" src="https://media.tenor.com/fotsqZtM9ZoAAAAd/arnab-goswami.gif" alt="" />
         </div>
         <div class="roadmap-text-box section">
           <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
           <h3 class="heading-tertiory">Debate</h3>
-          
-          <a href="https://codepen.io/trending"  target="_blank" class="button">Register Now</a>
-          <a href="#rules-debate" class ="button"><span style="color: white;">Rules</span></a>
+
+          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
+          <a href="#rules-debate" class="button"><span style="color: white;">Rules</span></a>
         </div>
 
         <!-- 3 -->
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img" src="https://media2.giphy.com/media/3oEjHZDbU9hInr6cMg/giphy.gif?cid=790b7611a952c69777109cce53eedb59a598cd9cd80a1e5f&rid=giphy.gif&ct=g" alt="" />
+          <img class="roadmap-img lazy-img"
+            src="https://media2.giphy.com/media/3oEjHZDbU9hInr6cMg/giphy.gif?cid=790b7611a952c69777109cce53eedb59a598cd9cd80a1e5f&rid=giphy.gif&ct=g"
+            alt="" />
         </div>
 
         <div class="roadmap-text-box section">
           <!-- <p class="roadmap-stepheading">Learn to Play Songs</p> -->
           <h3 class="heading-tertiory">Short Film Making</h3>
-          
-          <a href="https://codepen.io/trending"  target="_blank" class="button">Register Now</a>
-          <a href="#rules-short" class ="button"><span style="color: white;">Rules</span></a>
+
+          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
+          <a href="#rules-short" class="button"><span style="color: white;">Rules</span></a>
         </div>
-       
+
         <!-- 4 -->
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img" src="https://media.tenor.com/j4UMprDqyO8AAAAd/radio-ga-ga-queen.gif"alt="" />
+          <img class="roadmap-img lazy-img" src="https://media.tenor.com/j4UMprDqyO8AAAAd/radio-ga-ga-queen.gif"
+            alt="" />
           <!-- <img class="roadmap-img lazy-img" src="https://r7q6w9z6.rocketcdn.me/career/wp-content/uploads/2021/04/radio.gif"alt="" /> -->
         </div>
         <div class="roadmap-text-box section">
           <!-- <p class="roadmap-stepheading">Find Inspiration.</p> -->
           <h3 class="heading-tertiory">Radio Jockeying</h3>
-          
-          <a href="https://codepen.io/trending"  target="_blank" class="button">Register Now</a>
-          <a href="#rules-rj" class ="button"><span style="color: white;">Rules</span></a>
+
+          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
+          <a href="#rules-rj" class="button"><span style="color: white;">Rules</span></a>
         </div>
 
         <!-- 5 -->
-        
+
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img" style="height: 400px;" src="https://m.media-amazon.com/images/I/61Wy8COVcHL._AC_UF894,1000_QL80_.jpg" alt="" />
+          <img class="roadmap-img lazy-img" style="height: 400px;"
+            src="https://m.media-amazon.com/images/I/61Wy8COVcHL._AC_UF894,1000_QL80_.jpg" alt="" />
 
         </div>
-        
+
         <div class="roadmap-text-box section">
           <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
           <h3 class="heading-tertiory">Poster Making</h3>
-          
-          <a href="https://codepen.io/trending"  target="_blank" class="button">Register Now</a>
-          <a href="#rules-poster" class ="button"><span style="color: white;">Rules</span></a>
+
+          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
+          <a href="#rules-poster" class="button"><span style="color: white;">Rules</span></a>
         </div>
 
         <!-- 6 -->
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img" src="https://64.media.tumblr.com/14cc45f9610a6ee341a45fd0d68f4dde/20d11b36022bca7b-bf/s640x960/67ab1db12ff73a530f649ac455c000945d99c0d6.gif" alt="" />
+          <img class="roadmap-img lazy-img"
+            src="https://64.media.tumblr.com/14cc45f9610a6ee341a45fd0d68f4dde/20d11b36022bca7b-bf/s640x960/67ab1db12ff73a530f649ac455c000945d99c0d6.gif"
+            alt="" />
         </div>
         <div class="roadmap-text-box section">
           <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
           <h3 class="heading-tertiory">BVICAM Coding Challenges</h3>
-          
-          <a href="https://codepen.io/trending"  target="_blank" class="button">Register Now</a>
-          <a href="#rules-story" class ="button"><span style="color: white;">Rules</span></a>
+
+          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
+          <a href="#rules-story" class="button"><span style="color: white;">Rules</span></a>
         </div>
 
         <!-- 7 -->
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img" src="https://i.pinimg.com/originals/e4/1c/95/e41c9528d0a78ab98d6a6f3425d0b3b7.gif" alt="" />
+          <img class="roadmap-img lazy-img"
+            src="https://i.pinimg.com/originals/e4/1c/95/e41c9528d0a78ab98d6a6f3425d0b3b7.gif" alt="" />
         </div>
         <div class="roadmap-text-box section">
           <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
           <h3 class="heading-tertiory">Photography</h3>
-          
-          <a href="https://codepen.io/trending"  target="_blank" class="button">Register Now</a>
-          <a href="#rules-photo" class ="button"><span style="color: white;">Rules</span></a>
+
+          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
+          <a href="#rules-photo" class="button"><span style="color: white;">Rules</span></a>
         </div>
-        
+
       </div>
-      
-      </section>
-      
+
+    </section>
+
 
     <!-- <section class="section section-counters">
         <div class="container grid grid--4-cols center-text">
@@ -659,81 +672,81 @@
 
     <!-- Table One Starts  -->
     <section class="section section-cta" id="call-to-action">
-    <div class="container">
-      <h1> Schedule</h1>
-      <div class="table1">
-      <table class="table table-hover">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Event</th>
-            <th>Time</th>
-            <th>Event Heads</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Hackathon</td>
-            <td>8:00am - 8:00pm</td>
-            <td>
-              <li>Yatin Dhawan - 8800282376</li>
-              <li>Mohit Aneja - 9582602603</li>
-            </td>
-          </tr>
-          <tr>
-            <td>2</td>
-              <td>Nukkad Natak</td>
-              <td>11:00am Onwards</td>
-              <td>
-                <li>Prachi Huria- 9643107097</li>
-                <li>Abhay Yadav- 7088751301</li>
-              </td>
-          </tr>
-          <tr>
-            <td>3</td>
-              <td>Ad-MAD</td>
-              <td>11:00am Onwards</td>
-              <td>
-                <li>Rohitashwa - 9870590639</li>
-                <li>Vidita Verma - 9810239738</li>
-              </td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>Reel Making </td>
-            <td>11:00am Onwards</td>
-            <td>
-              <li>Komal Aggarwal - 9540615692</li>
-              <li>Pragya Mathur- 9953759818</li>
-            </td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>Volleyball</td>
-            <td>11:00am Onwards</td>
-            <td>
-              <li>Mukul Bisht- 8745014346</li>
-              <li>Toshiet Daksh- 9818572712</li>
-            </td>
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>Poster Making</td>
-            <td>11:00am Onwards</td>
-            <td>
-              <li>Devanshi - 9667196843</li>
-              <li>Harleen Kaur - 9817664972</li>
-              <li>Aarti – 7838585592</li>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
+      <div class="container">
+        <h1> Schedule</h1>
+        <div class="table1">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Event</th>
+                <th>Time</th>
+                <th>Event Heads</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Hackathon</td>
+                <td>8:00am - 8:00pm</td>
+                <td>
+                  <li>Yatin Dhawan - 8800282376</li>
+                  <li>Mohit Aneja - 9582602603</li>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Nukkad Natak</td>
+                <td>11:00am Onwards</td>
+                <td>
+                  <li>Prachi Huria- 9643107097</li>
+                  <li>Abhay Yadav- 7088751301</li>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Ad-MAD</td>
+                <td>11:00am Onwards</td>
+                <td>
+                  <li>Rohitashwa - 9870590639</li>
+                  <li>Vidita Verma - 9810239738</li>
+                </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Reel Making </td>
+                <td>11:00am Onwards</td>
+                <td>
+                  <li>Komal Aggarwal - 9540615692</li>
+                  <li>Pragya Mathur- 9953759818</li>
+                </td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Volleyball</td>
+                <td>11:00am Onwards</td>
+                <td>
+                  <li>Mukul Bisht- 8745014346</li>
+                  <li>Toshiet Daksh- 9818572712</li>
+                </td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Poster Making</td>
+                <td>11:00am Onwards</td>
+                <td>
+                  <li>Devanshi - 9667196843</li>
+                  <li>Harleen Kaur - 9817664972</li>
+                  <li>Aarti – 7838585592</li>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </section>
     <!-- Table One Ends  -->
 
-    
+
     </div>
 
     <div class="container grid">
@@ -769,9 +782,9 @@
 
 
 
-               <!-- Team Members -->
+    <!-- Team Members -->
 
-               <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -797,8 +810,8 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div> -->
-    
-              <!-- <section id="team" class="section-6">
+
+    <!-- <section id="team" class="section-6">
                 <div class="heading">
                   <h1>Event Coordinators</h1>
                 </div>
@@ -946,7 +959,7 @@
                             <h4 class="Nicks">Reel Making</h4>
                             <div class="d-flex" style="gap: 10px;">
                               <!-- <a href="https://www.linkedin.com/in/shivamjain9990339112/"><i class="fab fa-linkedin fa-2x"></i></a> -->
-                              <!-- <a href="tel:9540615692"><i class="fas fa-phone fa-2x green-text"></i></a>
+    <!-- <a href="tel:9540615692"><i class="fas fa-phone fa-2x green-text"></i></a>
                             </div>
                           </figcaption>
                           <a href="#"></a>
@@ -1059,8 +1072,8 @@
                             <p>Event Coordinator</p>
                             <h4 class="Nicks">Piece To Camera</h4>
                             <div class="d-flex" style="gap: 10px;"> -->
-                              <!-- <a href="https://www.linkedin.com/in/simrangulati10/"><i class="fab fa-linkedin fa-2x"></i></a> -->
-                              <!-- <a href="tel:96502 52130"><i class="fas fa-phone fa-2x green-text"></i></a>
+    <!-- <a href="https://www.linkedin.com/in/simrangulati10/"><i class="fab fa-linkedin fa-2x"></i></a> -->
+    <!-- <a href="tel:96502 52130"><i class="fas fa-phone fa-2x green-text"></i></a>
                             </div>
                           </figcaption>
                           <a href="#"></a>
@@ -1073,7 +1086,7 @@
                             <h4 class="Nicks">Radio Jockey</h4>
                             <div class="d-flex" style="gap: 10px;">
                               <a href="https://www.linkedin.com/in/khushi-babbar-79aa071ba/"><i class="fab fa-linkedin fa-2x"></i></a> -->
-                              <!-- <a href="tel:9643107097"><i class="fas fa-phone fa-2x green-text"></i></a>
+    <!-- <a href="tel:9643107097"><i class="fas fa-phone fa-2x green-text"></i></a>
                             </div>
                           </figcaption>
                           <a href="#"></a>
@@ -1095,76 +1108,79 @@
               </section> --> -->
 
 
-<!-- Rules for events -->
+    <!-- Rules for events -->
 
-   <!-- Debate Rules -->
-   <div id="rules-debate" class="overlay">
-    <div class="popup">
-      <h2>Debate Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <p>
-          <b>Registration Fees :</b> Nill
-          <!-- <br><b>Number of rounds:</b> 1 -->
-          <br/><b>Team:</b> 2
-          <br/><b>Judging criteria:</b>
-          <br/>A judge will observe and listen to your arguements and will declare the winner on
-          the basis of Fact of arguements.
-          <b>Topic:</b>Research and Innovation: Myths and Realities
-          <br>1. No registration fee for the participants.
-          <br>2. There will be maximum two members in one team - one speaking For the Motion and the other Against the
-          Motion.
-          <br>3. A panel of eminent judges shall judge the competition. In case of any dispute, the decision of the
-          judges
-          would be final.
-          <br>4. Each speaker will be allowed to express his or her views for 5 minutes.
-          <br>5. Cross questioning is allowed.
-          <br>6. The speaker will be evaluated on the criteria of content, diction, eloquence, body language and
-          confidence level.
-          <br>7. Facts must be accurate.
-          <br>8. In the questioning period, the questioner may ask any fair, clear question that has a direct bearing on
-          the debate.
-          <br>9. The debate shall be bilingual, either exclusively in English or exclusively in Hindi.
-          <br>10. There is 20 minutes of preparation time from the announcement of a pre-announced topic to the
-          beginning
-          of a debate.
-          <br>●Each participant must bring college I'd and show at time of registration.
-          <br>●Participant must be fully vaccinated.
-          <br>*T&C : Any kind of cheating will lead to disqualification.
-          <br>
-          <br>
-          <b>Contact: </b><a href="tel:9873406247">9873406247</a>, <a href="tel:8433116325">8433116325</a>
-        </p>
+    <!-- Debate Rules -->
+    <div id="rules-debate" class="overlay">
+      <div class="popup">
+        <h2>Debate Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <p>
+            <b>Registration Fees :</b> Nill
+            <!-- <br><b>Number of rounds:</b> 1 -->
+            <br /><b>Team:</b> 2
+            <br /><b>Judging criteria:</b>
+            <br />A judge will observe and listen to your arguements and will declare the winner on
+            the basis of Fact of arguements.
+            <b>Topic:</b>Research and Innovation: Myths and Realities
+            <br>1. No registration fee for the participants.
+            <br>2. There will be maximum two members in one team - one speaking For the Motion and the other Against the
+            Motion.
+            <br>3. A panel of eminent judges shall judge the competition. In case of any dispute, the decision of the
+            judges
+            would be final.
+            <br>4. Each speaker will be allowed to express his or her views for 5 minutes.
+            <br>5. Cross questioning is allowed.
+            <br>6. The speaker will be evaluated on the criteria of content, diction, eloquence, body language and
+            confidence level.
+            <br>7. Facts must be accurate.
+            <br>8. In the questioning period, the questioner may ask any fair, clear question that has a direct bearing
+            on
+            the debate.
+            <br>9. The debate shall be bilingual, either exclusively in English or exclusively in Hindi.
+            <br>10. There is 20 minutes of preparation time from the announcement of a pre-announced topic to the
+            beginning
+            of a debate.
+            <br>●Each participant must bring college I'd and show at time of registration.
+            <br>●Participant must be fully vaccinated.
+            <br>*T&C : Any kind of cheating will lead to disqualification.
+            <br>
+            <br>
+            <b>Contact: </b><a href="tel:9873406247">9873406247</a>, <a href="tel:8433116325">8433116325</a>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- GD Rules -->
-  <div id="rules-gd" class="overlay">
-    <div class="popup">
-      <h2>Group Discussion Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <p>
-          <b>Registration Fees :</b> Nill
-          <!-- <br /><b>Number of rounds:</b> 2 -->
-          <br /><b>Team:</b> Only individual entries allowed.
-          <br />
-          <br >
-          <b>Judging criteria:</b>
-          A judge will observe and listen to your arguements and will declare the winner on the basis of Fact of arguements
-          <!-- <li>
+    <!-- GD Rules -->
+    <div id="rules-gd" class="overlay">
+      <div class="popup">
+        <h2>Group Discussion Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <p>
+            <b>Registration Fees :</b> Nill
+            <!-- <br /><b>Number of rounds:</b> 2 -->
+            <br /><b>Team:</b> Only individual entries allowed.
+            <br />
+            <br>
+            <b>Judging criteria:</b>
+            A judge will observe and listen to your arguements and will declare the winner on the basis of Fact of
+            arguements
+            <!-- <li>
             Listen respectfully, without interrupting.            
           </li> -->
           <ul>
             <li>
-              Listen actively and with an ear to understanding others' views. (Don’t just think about what you are going to say while someone else is talking.)
+              Listen actively and with an ear to understanding others' views. (Don’t just think about what you are going
+              to say while someone else is talking.)
             </li>
             <br>
             <li>
-              Listen respectfully, without interrupting , 
+              Listen respectfully, without interrupting ,
               criticize ideas, not individuals.
             </li>
             <li>
@@ -1172,10 +1188,11 @@
               Avoid blame, speculation, and inflammatory language.
             </li>
             <li>
-              Allow everyone the chance to speak.         
+              Allow everyone the chance to speak.
             </li>
             <li>
-              Avoid assumptions about any member of the class or generalizations about social groups. Do not ask individuals to speak for their (perceived) social group
+              Avoid assumptions about any member of the class or generalizations about social groups. Do not ask
+              individuals to speak for their (perceived) social group
             </li>
             <li>
               Each participant must bring college I'd and show at time of registration.
@@ -1190,72 +1207,72 @@
           <br>
           <!-- <b>Contact: </b><a href="tel:"></a> -->
 
-        </p>
+          </p>
 
+        </div>
       </div>
     </div>
-  </div>
 
-   <!-- natak Rules -->
-   <div id="rules-natak" class="overlay">
-    <div class="popup">
-      <h2>Nukkad Natak Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <p>
-          <b>Registration Fees :</b> Nill
-          <br>
-          <br>
-          <!-- <br><b>Number of rounds:</b> 1 -->
-          <!-- <br/><b>Team:</b> 2 -->
-          <!-- <br/><b>Judging criteria:</b>
+    <!-- natak Rules -->
+    <div id="rules-natak" class="overlay">
+      <div class="popup">
+        <h2>Nukkad Natak Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <p>
+            <b>Registration Fees :</b> Nill
+            <br>
+            <br>
+            <!-- <br><b>Number of rounds:</b> 1 -->
+            <!-- <br/><b>Team:</b> 2 -->
+            <!-- <br/><b>Judging criteria:</b>
           <br/>A judge will observe and listen to your arguements and will declare the winner on
           the basis of Fact of arguements.
           <b>Topic:</b>  -->
-          1.Time limit for play is 15-20 minutes. 
-          <br>2.Set up should not be more than 5 minutes. 
-          <br>3.The play should be on a social topic. 
-          <br>4.The play should not include any kind of explicit content, vulgarity or inappropriate language. 
-          <br>5.The participating team should bring their own stage props and make up. 
-          <br>6.All the members should be double vaccinated. 
-          <br>7.Members should carry their vaccination certificate with them. 
-          <br>8.Every member should carry their college id card. 
-          <br>9.For safer side please carry your audio(if any) in pen drive as well.
-          <br>●Each participant must bring college I'd and show at time of registration.
-          <br>●Participant must be fully vaccinated.
-          <br>
-          <br>*T&C : Any kind of cheating will lead to disqualification.
-          <br>
-          <br>
-          <b>Contact: </b><a href="tel:9643107097">9643107097</a>, <a href="tel:7088751301">7088751301</a>
-        </p>
+            1.Time limit for play is 15-20 minutes.
+            <br>2.Set up should not be more than 5 minutes.
+            <br>3.The play should be on a social topic.
+            <br>4.The play should not include any kind of explicit content, vulgarity or inappropriate language.
+            <br>5.The participating team should bring their own stage props and make up.
+            <br>6.All the members should be double vaccinated.
+            <br>7.Members should carry their vaccination certificate with them.
+            <br>8.Every member should carry their college id card.
+            <br>9.For safer side please carry your audio(if any) in pen drive as well.
+            <br>●Each participant must bring college I'd and show at time of registration.
+            <br>●Participant must be fully vaccinated.
+            <br>
+            <br>*T&C : Any kind of cheating will lead to disqualification.
+            <br>
+            <br>
+            <b>Contact: </b><a href="tel:9643107097">9643107097</a>, <a href="tel:7088751301">7088751301</a>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- ad -->
-  <div id="rules-ad" class="overlay">
-    <div class="popup">
-      <h2>AD-MAD Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <p>
-          <b>Registration Fees :</b> Nill<br /><br />
+    <!-- ad -->
+    <div id="rules-ad" class="overlay">
+      <div class="popup">
+        <h2>AD-MAD Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <p>
+            <b>Registration Fees :</b> Nill<br /><br />
 
-          <b>“Bring out the creativity inside you and make an outstanding advertisement of your own. Be it
-          hilarious or sensitive, be it just your creativity and ad sense.”</b><br />
+            <b>“Bring out the creativity inside you and make an outstanding advertisement of your own. Be it
+              hilarious or sensitive, be it just your creativity and ad sense.”</b><br />
           <ul>
             <li>It is a team based event. Each team should have 4-5 members only.</li>
             <li>5 minutes preparation time for each team will be given</li>
             <li>Time limit for performing the advertisement is 2-3 minutes. Negative points for
-            exceeding the time limit.</li>
+              exceeding the time limit.</li>
             <li>Topics would be provided on the spot.</li>
             <li>Participants shall be judged on the basis of spontaneity, content, and adherence to the
-            topic, on-stage presentation, coordination and overall appeal of the advertisement.</li>
+              topic, on-stage presentation, coordination and overall appeal of the advertisement.</li>
             <li>The caution should be taken to refrain from displaying obscenity, violence, prejudice,
-            defamation etc. in Advertisement.</li>
+              defamation etc. in Advertisement.</li>
             <li>Decision of the jury will be final & binding.</li>
             <li>Each participant must bring college I'd and show at time of registration.</li>
             <li>Participant must be fully vaccinated.</li>
@@ -1267,126 +1284,129 @@
           <div>
             <b>Contact: </b><a href="tel:9870590639">9870590639</a>, <a href="tel:9810239738">9810239738</a>
           </div>
-        </p>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- short-->
-  <div id="rules-short" class="overlay">
-    <div class="popup">
-      <h2>SHORT FILM MAKING Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <p>
-          <b>Registration Fees :</b> Nill
-          <!-- <br>
+    <!-- short-->
+    <div id="rules-short" class="overlay">
+      <div class="popup">
+        <h2>SHORT FILM MAKING Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <p>
+            <b>Registration Fees :</b> Nill
+            <!-- <br>
           <br> -->
-          <!-- <br><b>Number of rounds:</b> 1 -->
-          <br/><strong>THEME:</strong> The film can be based on any theme that can be shot in the campus premises itself.
-          <br/><b>DURATION:</b> 
+            <!-- <br><b>Number of rounds:</b> 1 -->
+            <br /><strong>THEME:</strong> The film can be based on any theme that can be shot in the campus premises
+            itself.
+            <br /><b>DURATION:</b>
             <br>● The minimum length should be 30 seconds excluding credits.
-            <br>● The maximum length shall not be more than Three minutes (180 seconds), including the beginning and end credits.
+            <br>● The maximum length shall not be more than Three minutes (180 seconds), including the beginning and end
+            credits.
             <br>● Films not adhering to the time limit are liable to be rejected.
             <br>● Opening and/or closing credits are completely optional.
-          <br/><b>LANGUAGE:</b> 
-          <br>● Films may be in any language or have no dialogue at all.
-          <br>● Films submitted previously to any other festival will not be considered for this contest. If
-              found later, film will be disqualified for the contest/prize withheld.
-          <br/><b>RIGHT TO SCREEN:</b>
-          <br>● The participants grant the Organisers, the non-exclusive rights to screen (non –commercial) the film on their respective websites, at the festival and other associated screenings.
-          <br/><b>COPYRIGHT:</b>
-          <br>● The Film must not contain any copyrighted work(s) belonging to third parties unless
-          <br>(1) Participants have a license to use such works in the Film;
-          <br>or
-          <br>(2) Participants’ Film makes use of such works in a fair manner under the copyright laws.
-          <br>● Participants will retain any licenses and provide them to organisers upon request.
-          <br>●Each participant must bring college I'd and show at time of registration.
-          <br>●Participant must be fully vaccinated.
-          <br>*T&C : Any kind of cheating will lead to disqualification.
-          <br>
-          <br>
-          <b>Conatct: </b><a href="tel:96675424883">96675424883</a>, <a href="tel:8373983366">8373983366</a>
-        </p>
+            <br /><b>LANGUAGE:</b>
+            <br>● Films may be in any language or have no dialogue at all.
+            <br>● Films submitted previously to any other festival will not be considered for this contest. If
+            found later, film will be disqualified for the contest/prize withheld.
+            <br /><b>RIGHT TO SCREEN:</b>
+            <br>● The participants grant the Organisers, the non-exclusive rights to screen (non –commercial) the film
+            on their respective websites, at the festival and other associated screenings.
+            <br /><b>COPYRIGHT:</b>
+            <br>● The Film must not contain any copyrighted work(s) belonging to third parties unless
+            <br>(1) Participants have a license to use such works in the Film;
+            <br>or
+            <br>(2) Participants’ Film makes use of such works in a fair manner under the copyright laws.
+            <br>● Participants will retain any licenses and provide them to organisers upon request.
+            <br>●Each participant must bring college I'd and show at time of registration.
+            <br>●Participant must be fully vaccinated.
+            <br>*T&C : Any kind of cheating will lead to disqualification.
+            <br>
+            <br>
+            <b>Conatct: </b><a href="tel:96675424883">96675424883</a>, <a href="tel:8373983366">8373983366</a>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
 
     <!-- poster -->
-  <div id="rules-poster" class="overlay">
-    <div class="popup">
-      <h2>Poster Making Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <p>
-          <b>Registration Fees :</b> Nill<br>
-          <b>Topic:</b> Role of IEEE in career Management OR IEEE Day Celebrations
-          <br>● A poster of A3 size has to created in campus.
-          <br>●Every Participant will be given A3 size sheet, pencil, erazer and basic water colours. 
-          <br>●A Candidate can bring his own colours, colored pens and markers.
-          <br>●Each participant must bring college I'd and show at time of registration.
-          <br>●Participant must be fully vaccinated.
-          <br>*T&C : Any kind of cheating will lead to disqualification.
-          <br>
-          <br>
-          <b>Contact: </b><a href="tel:9667196843">9667196843</a>, <a href="tel:7838585592">7838585592</a>
-        </p>
+    <div id="rules-poster" class="overlay">
+      <div class="popup">
+        <h2>Poster Making Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <p>
+            <b>Registration Fees :</b> Nill<br>
+            <b>Topic:</b> Role of IEEE in career Management OR IEEE Day Celebrations
+            <br>● A poster of A3 size has to created in campus.
+            <br>●Every Participant will be given A3 size sheet, pencil, erazer and basic water colours.
+            <br>●A Candidate can bring his own colours, colored pens and markers.
+            <br>●Each participant must bring college I'd and show at time of registration.
+            <br>●Participant must be fully vaccinated.
+            <br>*T&C : Any kind of cheating will lead to disqualification.
+            <br>
+            <br>
+            <b>Contact: </b><a href="tel:9667196843">9667196843</a>, <a href="tel:7838585592">7838585592</a>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  
-  <!-- photo -->
-  <div id="rules-photo" class="overlay">
-    <div class="popup">
-      <h2>Photography Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <span>
-          <b>Registration Fees :</b> Nill
-          
-          <ul>
-            <li>Dslr and Mobile Photography Pictures are welcomed</li>
-            <li>No Watermark</li>
-            <li>Colour Grading is allowed</li>
-            <li>Photos will be judged on the composition, story and creativity</li>
-          </ul>
-          <b>Participants have to provide the details listed below</b>
-          <ul>
-            <li>Name of the photographer</li>
-            <li>Shutter Speed</li>
-            <li>Aperture</li>
-            <li>ISO</li>
-          </ul>
-          The topic will be given on the spot.
-          <br>●Each participant must bring college I'd and show at time of registration.
-          <br>●Participant must be fully vaccinated.
-          <br>*T&C : Any kind of cheating will lead to disqualification.
-          <br>
-          <br>
-          <b>Conatct: </b><a href="tel:9136630291">9136630291</a>, <a href="tel:7838585592">7838585592</a>
-        </span>
+
+    <!-- photo -->
+    <div id="rules-photo" class="overlay">
+      <div class="popup">
+        <h2>Photography Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <span>
+            <b>Registration Fees :</b> Nill
+
+            <ul>
+              <li>Dslr and Mobile Photography Pictures are welcomed</li>
+              <li>No Watermark</li>
+              <li>Colour Grading is allowed</li>
+              <li>Photos will be judged on the composition, story and creativity</li>
+            </ul>
+            <b>Participants have to provide the details listed below</b>
+            <ul>
+              <li>Name of the photographer</li>
+              <li>Shutter Speed</li>
+              <li>Aperture</li>
+              <li>ISO</li>
+            </ul>
+            The topic will be given on the spot.
+            <br>●Each participant must bring college I'd and show at time of registration.
+            <br>●Participant must be fully vaccinated.
+            <br>*T&C : Any kind of cheating will lead to disqualification.
+            <br>
+            <br>
+            <b>Conatct: </b><a href="tel:9136630291">9136630291</a>, <a href="tel:7838585592">7838585592</a>
+          </span>
+        </div>
       </div>
     </div>
-  </div>
-  
-  <!-- reel -->
-  <div id="rules-reel" class="overlay">
-    <div class="popup">
-      <h2>Reel Making Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <p>
-          <b>Registration Fees :</b> Nill
-          
+
+    <!-- reel -->
+    <div id="rules-reel" class="overlay">
+      <div class="popup">
+        <h2>Reel Making Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <p>
+            <b>Registration Fees :</b> Nill
+
           <ul>
-            <li>The reel must be an original creation. You can only be inspired by existing trends online. Plagiarized 
-            content lead to disqualification.</li>
-            <li>Any offensive, name-calling, derogatory remarks, and/or regional slang towards any person or 
-            community should not be used.</li>
+            <li>The reel must be an original creation. You can only be inspired by existing trends online. Plagiarized
+              content lead to disqualification.</li>
+            <li>Any offensive, name-calling, derogatory remarks, and/or regional slang towards any person or
+              community should not be used.</li>
             <li>The video should not exceed 60 Seconds.</li>
             <li>Individual, as well as group entries (not more than 4 people), are allowed.</li>
             <li>Please use one medium of language for the reels. The submissions can be in either English or Hindi.</li>
@@ -1402,34 +1422,34 @@
           <div>
             <b>Contact: </b><a href="tel:9540615692">9540615692</a>, <a href="tel:9953759818">9953759818</a>
           </div>
-        </p>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  
-  <!-- cartoon -->
-  <div id="rules-cartoon" class="overlay">
-    <div class="popup">
-      <h2>Digital Cartoon Making Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <p>
-          <b>Registration Fees :</b> Nill
-          
+
+    <!-- cartoon -->
+    <div id="rules-cartoon" class="overlay">
+      <div class="popup">
+        <h2>Digital Cartoon Making Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <p>
+            <b>Registration Fees :</b> Nill
+
           <ul>
-            <li>Participants can make cartoons using the following softwares – Photoshop, 
-              Corel Draw, Illustrator.</li> 
+            <li>Participants can make cartoons using the following softwares – Photoshop,
+              Corel Draw, Illustrator.</li>
             <li>Campus can provide you with computers with Photoshop , it is advisory to bring your own laptops</li>
-            <li>Cartoons must be made in A4 size.</li> 
-            <li>Cartoons should be original. Plagiarism will lead to immediate 
-            disqualification.</li> 
-            <li>1 hour will be given to the participants to make the cartoons.</li> 
-            <li>The cartoons should not be of abusive or sexual nature. They should not 
-            contain hate speech and/or promote gender discrimination, communalism
-            etc. in any way.</li> 
-            <li>The cartoon can be on any recent topic of national or international 
-            importance.</li> 
+            <li>Cartoons must be made in A4 size.</li>
+            <li>Cartoons should be original. Plagiarism will lead to immediate
+              disqualification.</li>
+            <li>1 hour will be given to the participants to make the cartoons.</li>
+            <li>The cartoons should not be of abusive or sexual nature. They should not
+              contain hate speech and/or promote gender discrimination, communalism
+              etc. in any way.</li>
+            <li>The cartoon can be on any recent topic of national or international
+              importance.</li>
             <li>The cartoon can have both wordplay and design.</li>
             <li>You are advised to carry your laptops having Photoshop</li>
           </ul>
@@ -1442,71 +1462,72 @@
           <div>
             <b>Contact: </b><a href="tel:8700629009">8700629009</a>, <a href="tel:8802229818">8802229818</a>
           </div>
-        </p>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- ptc-->
-  <div id="rules-ptc" class="overlay">
-    <div class="popup">
-      <h2>PTC Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <p>
-          <b>Registration Fees :</b> Nill
-          
+    <!-- ptc-->
+    <div id="rules-ptc" class="overlay">
+      <div class="popup">
+        <h2>PTC Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <p>
+            <b>Registration Fees :</b> Nill
+
           <ul>
             <li> You have to watch our any of one event according to your suitability and record a PTC.</li>
             <li>The duration of P2C will be 2-3mints maximum. More than time will deduct your
-            performance based marks.</li>
+              performance based marks.</li>
             <li>While speaking wearing sunglasses, earphones and any technical instrument will not be
-            allowed.</li>
+              allowed.</li>
             <li>Carry your equipments like camera, mic accordingly.</li>
             <li>The result will be on the basis of your performance, confidence and body language.</li>
             <li>Give your 10 sec introduction before starting PTC.</li>
             <li>Keep your message short and clear.</li>
             <li>Use single Language either Hindi or English while recording your video.</li>
             <li>Judgement will be based on frequency words of choice and your way of your message
-            delivery.</li>
+              delivery.</li>
             <li>After recording a video participants have to submit their video to concern co-coordinator
-            for the judgement and result</li>
+              for the judgement and result</li>
             <li>Each participant must bring college I'd and show at time of registration.
             </li>
             <li>Participant must be fully vaccinated.
             </li>
-            </ul>
+          </ul>
 
           <br>*T&C : Any kind of cheating will lead to disqualification.
           <br>
           <br>
           <div>
           </div>
-        </p>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
     <!-- volley-->
-  <div id="rules-volley" class="overlay">
-    <div class="popup">
-      <h2>Volley Ball Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <p>
-          <b>Registration Fees :</b> Nill
-          
+    <div id="rules-volley" class="overlay">
+      <div class="popup">
+        <h2>Volley Ball Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <p>
+            <b>Registration Fees :</b> Nill
+
           <ul>
-            <li>Event will held on 7th October</li> 
-            <li>Participants needs to be FULLY VACCINATED.</li> 
-            <li> There should be only one registration from one team.</li> 
+            <li>Event will held on 7th October</li>
+            <li>Participants needs to be FULLY VACCINATED.</li>
+            <li> There should be only one registration from one team.</li>
             <!-- <li>There should be at least one college student in a team.</li>  -->
-            <li>Minimum 6 and maximum 10 players are allowed in one team.</li> 
-            <li>Any type of misbehavior from the participants in the college premises would lead to the direct disqualification.</li> 
+            <li>Minimum 6 and maximum 10 players are allowed in one team.</li>
+            <li>Any type of misbehavior from the participants in the college premises would lead to the direct
+              disqualification.</li>
             <li>Teams will be divided into 2 groups. </li>
-            <li>Each team will play against every team of their respective group.</li> 
-            <li>2 teams will qualify from each group for finals.</li> 
+            <li>Each team will play against every team of their respective group.</li>
+            <li>2 teams will qualify from each group for finals.</li>
             <li>Each participant must bring college I'd and show at time of registration.
             </li>
             <!-- <li>Finals will be played on 12th march.</li>  -->
@@ -1519,89 +1540,92 @@
           <div>
             <b>Contact: </b><a href="tel:8745014346">8745014346</a>, <a href="tel:9818572712">9818572712</a>
           </div>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- story -->
+    <div id="rules-story" class="overlay">
+      <div class="popup">
+        <h2>Story Telling Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <br class="content">
+        <br>
+        <b>Registration Fees :</b> Nill<br /><br />
+
+        <b>Event Rules:</b><br />
+        <ul>
+          <li>Only individual participants are allowed in story telling event.</li>
+          <li>Stories presented can be authentic, adapted or originally written.</li>
+          <li>Stories presented must not touch on sensitive issues such as race, religion, stereotyping, politics, etc.
+          </li>
+          <li>Use of props, backdrops and sound effects is not allowed</li>
+          <li>The story can be in Hindi or English</li>
+          <li>The time allocated to present the story is 3 to 4 minutes.</li>
+          <li>Each participant must bring college I'd and show at time of registration.
+          </li>
+          <li>Participant must be fully vaccinated.
+          </li>
+          <br />
+        </ul>
+        <b>While narrating please be aware of your:</b>
+        <br />
+        <ul>
+          <li>Voice modulation</li>
+          <li>Voice projection</li>
+          <li>Clarity</li>
+        </ul>
+
+        <br>*T&C : Any kind of cheating will lead to disqualification.
+        <br>
+        <br>
+        <div>
+          <b>Contact: </b><a href="tel:9910472278">9910472278</a>
+        </div>
         </p>
       </div>
     </div>
-  </div>
-  <!-- story -->
-  <div id="rules-story" class="overlay">
-    <div class="popup">
-      <h2>Story Telling Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <br class="content">
-        <br>
-          <b>Registration Fees :</b> Nill<br /><br />
-          
-          <b>Event Rules:</b><br />
-          <ul>
-            <li>Only individual participants are allowed in story telling event.</li>  
-              <li>Stories presented can be authentic, adapted or originally written.</li>
-              <li>Stories presented must not touch on sensitive issues such as race, religion, stereotyping, politics, etc.</li>
-              <li>Use of props, backdrops and sound effects is not allowed</li>
-              <li>The story can be in Hindi or English</li>
-              <li>The time allocated to present the story is 3 to 4 minutes.</li>
+    <!-- rj -->
+    <div id="rules-rj" class="overlay">
+      <div class="popup">
+        <h2>Radio Jockey Rules</h2>
+        <a class="close" href="#">&times;</a>
+        <hr>
+        <div class="content">
+          <span>
+            <b>Registration Fees :</b> Nill<br /><br />
+            <strong>Event Brief:</strong>
+            <p>This event gives you the chance to own your show with live audience right by your side. Be a Radio
+              Jockey! Show off your voice and communication skills. Speak a lot and you have chance to win!</p><br />
+            <strong>Event Rules:</strong><br />
+            <ul>
+              <li>Participants will be judged on the basis of one round.</li>
+              <li>Participants need to speak for minimum two to maximum five minutes.</li>
+              <li>Exceeding time limit will result in deduction of marks.</li>
+              <li>Topic has to be of event related to national or international importance.</li>
+              <li>Participants will be judged on the basis of fluency, spontaneity, presentation & communication skills.
+              </li>
+              <li>Language of the script should be suitable for presentation in an academic institution.</li>
+              <li>Participants will have to present in front of physical audience within the campus.</li>
+              <li>Decision of the judges will be final and binding.</li>
               <li>Each participant must bring college I'd and show at time of registration.
               </li>
               <li>Participant must be fully vaccinated.
               </li>
-              <br />
-          </ul>
-          <b>While narrating please be aware of your:</b>
-          <br />
-          <ul>
-              <li>Voice modulation</li>
-              <li>Voice projection</li>
-              <li>Clarity</li>
-          </ul>
+            </ul>
 
-          <br>*T&C : Any kind of cheating will lead to disqualification.
-          <br>
-          <br>
-          <div>
-            <b>Contact: </b><a href="tel:9910472278">9910472278</a>
-          </div>
-        </p>
-      </div>
-  </div>
-    <!-- rj -->
-  <div id="rules-rj" class="overlay">
-    <div class="popup">
-      <h2>Radio Jockey Rules</h2>
-      <a class="close" href="#">&times;</a>
-      <hr>
-      <div class="content">
-        <span>
-          <b>Registration Fees :</b> Nill<br /><br />
-          <strong>Event Brief:</strong>
-          <p>This event gives you the chance to own your show with live audience right by your side. Be a Radio Jockey! Show off your voice and communication skills. Speak a lot and you have chance to win!</p><br />
-          <strong>Event Rules:</strong><br />
-          <ul>
-            <li>Participants will be judged on the basis of one round.</li>
-            <li>Participants need to speak for minimum two to maximum five minutes.</li> 
-            <li>Exceeding time limit will result in deduction of marks.</li>
-            <li>Topic  has to be of event related to national or international importance.</li>  
-            <li>Participants will be judged on the basis of fluency, spontaneity, presentation & communication skills.</li>
-            <li>Language of the script should be suitable for presentation in an academic institution.</li>
-            <li>Participants will have to present in front of physical audience within the campus.</li>
-            <li>Decision of the judges will be final and binding.</li>
-            <li>Each participant must bring college I'd and show at time of registration.
-            </li>
-            <li>Participant must be fully vaccinated.
-            </li>
-          </ul>
 
-          
-          <br />*T&C : Any kind of cheating will lead to disqualification.
-          <br>
-          <br>
-          <div>
-            <b>Contact: </b><a href="tel:9643107097">9643107097</a>
-          </div>
-        </span>
+            <br />*T&C : Any kind of cheating will lead to disqualification.
+            <br>
+            <br>
+            <div>
+              <b>Contact: </b><a href="tel:9643107097">9643107097</a>
+            </div>
+          </span>
+        </div>
       </div>
     </div>
-  </div>
 
 
 
@@ -1641,7 +1665,7 @@
                 <i class="fa fa-chevron-down"></i>
               </span>
             </div>
-            <div class="faq-item-body">                
+            <div class="faq-item-body">
               <ol style="list-style-type:upper-roman">
                 <li>
                   - Be part of a distinguished society at the forefront of product innovation <br><br>
@@ -1677,7 +1701,11 @@
             </div>
             <div class="faq-item-body">
               <p></p>
-              IEEE membership is open to individuals who by education or experience give evidence of competence in an IEEE designated field of interest. The designated fields are, in broad terms: Engineering, Computer Science and Information Technology, Physical Sciences, Biological and Medical Sciences, Mathematics, Technical Communications, and related Education, Management, Law, and Policy. The IEEE membership cycle runs on a calendar year - January through December.
+              IEEE membership is open to individuals who by education or experience give evidence of competence in an
+              IEEE designated field of interest. The designated fields are, in broad terms: Engineering, Computer
+              Science and Information Technology, Physical Sciences, Biological and Medical Sciences, Mathematics,
+              Technical Communications, and related Education, Management, Law, and Policy. The IEEE membership cycle
+              runs on a calendar year - January through December.
             </div>
           </div>
 
@@ -1690,7 +1718,11 @@
             </div>
             <div class="faq-item-body">
               <p>
-                IEEE member dues and regional assessments are based on where you live and when you apply.  Membership is based on the calendar year from 1 January through 31 December.  NEW applications received between 16 August and 28 February will automatically be processed at the full year dues rates.  NEW applications* received between 1 March and 15 August will automatically be processed for half-year membership ending 31 December at the half-year dues rates.  Services begin immediately.
+                IEEE member dues and regional assessments are based on where you live and when you apply. Membership is
+                based on the calendar year from 1 January through 31 December. NEW applications received between 16
+                August and 28 February will automatically be processed at the full year dues rates. NEW applications*
+                received between 1 March and 15 August will automatically be processed for half-year membership ending
+                31 December at the half-year dues rates. Services begin immediately.
               </p>
             </div>
           </div>
@@ -1701,55 +1733,58 @@
 
 
   <!-- slider -->
-  <div  id= trendings class="variety_outfit ">
+  <div id=trendings class="variety_outfit ">
     <h1>Coordinator Team</h1>
-   <div class="swiper mySwiper">
-       <div class="swiper-wrapper">
-         <div class="swiper-slide">
-           <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-            <h3 class="outfit1"><a href="./pages/g1.html" target="blank">shweta</a></h3>
-         </div>
-         <div class="swiper-slide">
-           <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-           <h3 class="outfit1"><a href="./pages/g2.html"  target="blank">kartik</a></h3>
-         </div>
-         <div class="swiper-slide">
-           <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-           <h3 class="outfit1"><a href="./pages/g4.html" target="blank">sarthak</a></h3>
-         </div>
-         <div class="swiper-slide">
-           <img src="./IMAGES/g5.jpg">
-           <h3 class="outfit1"><a href="./pages/g5.html" target="blank">abhimanyu</a></h3>
-         </div>
-         <div class="swiper-slide">
-           <img src="./IMAGES/g6.jpg">
-           <h3 class="outfit1"><a href="./pages/g6.html" target="blank">BUY NOW</a></h3>
-         </div>
-         <div class="swiper-slide">
-           <img src="./IMAGES/g7.jpg">
-           <h3 class="outfit1"><a href="./pages/g7.html" target="blank">BUY NOW</a></h3>
-         </div>
-         <div class="swiper-slide">
-           <img src="./IMAGES/g8.jpg">
-           <h3 class="outfit1"><a href="./pages/g8.html" target="blank">BUY NOW</a></h3>
-         </div>
-         <div class="swiper-slide">
-           <img src="./IMAGES/g9.jpg">
-           <h3 class="outfit1"><a href="./pages/g9.html" target="blank">BUY NOW</a></h3>
-         </div>
-         <div class="swiper-slide">
-           <img src="./IMAGES/g10.jpg">
-           <h3 class="outfit1"><a href="./pages/g10.html" target="blank">BUY NOW</a></h3>
-         </div>
-         <div class="swiper-slide">
-           <img src="./IMAGES/g11.jpg">
-           <h3 class="outfit1"><a href="./pages/g11.html" target="blank">BUY NOW</a></h3>
-         </div>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+          <h3 class="outfit1"><a href="./pages/g1.html" target="blank">shweta</a></h3>
         </div>
-       <div class="swiper-pagination"></div>
-     </div>
- </div>
-  <footer class="footer">
+        <div class="swiper-slide">
+          <img
+            src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+          <h3 class="outfit1"><a href="./pages/g2.html" target="blank">kartik</a></h3>
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+          <h3 class="outfit1"><a href="./pages/g4.html" target="blank">sarthak</a></h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./IMAGES/g5.jpg">
+          <h3 class="outfit1"><a href="./pages/g5.html" target="blank">abhimanyu</a></h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./IMAGES/g6.jpg">
+          <h3 class="outfit1"><a href="./pages/g6.html" target="blank">BUY NOW</a></h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./IMAGES/g7.jpg">
+          <h3 class="outfit1"><a href="./pages/g7.html" target="blank">BUY NOW</a></h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./IMAGES/g8.jpg">
+          <h3 class="outfit1"><a href="./pages/g8.html" target="blank">BUY NOW</a></h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./IMAGES/g9.jpg">
+          <h3 class="outfit1"><a href="./pages/g9.html" target="blank">BUY NOW</a></h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./IMAGES/g10.jpg">
+          <h3 class="outfit1"><a href="./pages/g10.html" target="blank">BUY NOW</a></h3>
+        </div>
+        <div class="swiper-slide">
+          <img src="./IMAGES/g11.jpg">
+          <h3 class="outfit1"><a href="./pages/g11.html" target="blank">BUY NOW</a></h3>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <!-- <footer class="footer">
     <div class="container grid grid--footer">
       <div class="logo-cal">
         <a class="logo-home" href="#">
@@ -1823,14 +1858,14 @@
       <nav class="nav-col">
         <p class="footer-heading">Account</p>
         <ul class="footer-nav">
-          <li><a class="footer-link" href="#">Create account</a></li>
-          <li><a class="footer-link" href="#">Sign in</a></li>
-          <!-- <li><a class="footer-link" href="#">iOS app</a></li>
+          <li><a class="footer-link" href="#">Create account</a></li> -->
+  <!-- <li><a class="footer-link" href="#">Sign in</a></li> -->
+  <!-- <li><a class="footer-link" href="#">iOS app</a></li>
             <li><a class="footer-link" href="#">Android app</a></li> -->
-        </ul>
-      </nav>
+  <!-- </ul>
+      </nav> -->
 
-      <!-- <nav class="nav-col">
+  <!-- <nav class="nav-col">
           <p class="footer-heading">Resources</p>
           <ul class="footer-nav">
             <li><a class="footer-link" href="#">Create account</a></li>
@@ -1839,6 +1874,85 @@
             <li><a class="footer-link" href="#">Android app</a></li>
           </ul>
         </nav> -->
+  <!-- </div>
+  </footer> -->
+
+
+  <!-- <footer class="page-footer text-center font-small wow fadeIn mt-4">
+    <div class="pt-4">
+      <!-- <a class="btn btn-outline-white" href="#events" class="nav-link" role="button">Register Now
+        <i class="fas fa-download ml-2"></i>
+      </a>-->
+  <!-- </div>
+    <hr class="my-4">
+    <div class="pb-4">
+      <h4>
+        <span class="mr-4"><strong>Follow for more updates</strong></span>
+      </h4>
+      <a href="https://www.facebook.com/BVICAMsNSC/" target="_blank">
+        <i class="fab fa-facebook-f fa-2x mr-3"></i>
+      </a>
+
+      <a href="https://www.youtube.com/channel/UCuOPY-98JUY9T2igRpj8tIQ" target="_blank">
+        <i class="fab fa-youtube fa-2x mr-3"></i>
+      </a>
+      
+      <a href="https://goo.gl/maps/K6uS1xE64fiAoLHv8" target="_blank">
+          <i class="fab fa-google fa-2x mr-3"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/bvicam-new-delhi-43a5b2226" target="_blank">
+          <i class="fab fa-linkedin fa-2x mr-3"></i>
+      </a>
+
+      <a href="https://www.instagram.com/bvicamnsc/" target="_blank">
+        <i class="fab fa-instagram fa-2x mr-3"></i>
+      </a>
+    </div>
+    <div class="footer-copyright py-3">
+
+      <h6 class="">Our Design:<br />
+      <div class="our">Dev Garg and Naman Bhateja</div>
+      </a></h6>
+      © 2022 Copyright:
+      <a href="http://bvicam.in/" target="_blank"> Bharati Vidyapeeth's Institute of Computer Applications
+        and Management </a>
+    </div> -->
+  <!-- </footer> -->
+
+  <footer>
+    <h1>
+      <span style="color:#fff"> 
+        <strong>
+          Follow for more updates
+          </strong>
+      </span>
+    </h1>
+
+    <ul class="icons">
+      <li><a href="https://www.facebook.com/BVICAMsNSC/" target="_blank">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li><a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+
+    <ul class="menu">
+      <li><a href="https://www.facebook.com/BVICAMsNSC/">/a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Partners</a></li>
+      <li><a href="#">Specialties</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <div class="footer-copyright">
+      <p>Copyright @ 2022 All Rights Reserved.</p>
     </div>
   </footer>
 
@@ -1853,24 +1967,24 @@
   <script src="./SCRIPT/index.js"></script>
 
   <script>
-      var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 800,
-          modifier: 1,
-          slideShadows:false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-        },
-      });
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 800,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
   </script>
-  
+
 </body>
 
 </html>
