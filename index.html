@@ -1,62 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./image/logo-title.webp">
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="./image/logo-title.webp">
-  <link rel="stylesheet" href="./styles/general.css" />
-  <link rel="stylesheet" href="./styles/style.css" />
-  <link rel="stylesheet" href="./styles/responsive.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- ^ Bootstrap's link ^ -->
 
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer src="./scripts/nav.js"></script>
+    <script type="module" defer src="./scripts/slider.js"></script>
+    <script defer src="./scripts/lazyLoading.js"></script>
+    <script defer src="./scripts/counter.js"></script>
+    <script defer src="./scripts/timer.js"></script>
+    <script defer src="./scripts/script.js"></script>
+    <!-- swiper -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+  />
+         <!-- jquery -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+    
 
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Education day</title>
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-  <!-- ^ Bootstrap's link ^ -->
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <a href="#hero-section">
+          <img class="logo" src="./image/bvicam.png" alt="logo" />
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#roadmap-section" class="main-nav-link">EVENTS</a></li>
 
-  <script defer src="./scripts/nav.js"></script>
-  <script type="module" defer src="./scripts/slider.js"></script>
-  <script defer src="./scripts/lazyLoading.js"></script>
-  <script defer src="./scripts/counter.js"></script>
-  <script defer src="./scripts/timer.js"></script>
-  <script defer src="./scripts/script.js"></script>
-  <!-- swiper -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-  <!-- jquery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <li><a href="#call-to-action" class="main-nav-link">SCHEDULE</a></li>
+          <li><a href="#faqsection" class="main-nav-link">FAQ</a></li>
+          <li><a href="#" class="main-nav-link">TEAM</a></li>
+          <!-- <li>
 
-
-
-  <title>Education day</title>
-</head>
-
-<body>
-  <header class="header">
-    <div class="logo-container">
-      <a href="#hero-section">
-        <img class="logo" src="./image/BVICAM logo-1.png" alt="logo" />
-      </a>
-    </div>
-    <nav class="main-nav">
-      <ul class="main-nav-list">
-        <li><a href="#roadmap-section" class="main-nav-link">EVENTS</a></li>
-
-        <li><a href="#section section-cta" class="main-nav-link">SCHEDULE</a></li>
-        <li><a href="#main-wrapper" class="main-nav-link">FAQ</a></li>
-        <li><a href="#pricing-section" class="main-nav-link">TEAM</a></li>
-        <!-- <li>
             <a href="#call-to-action" class="main-nav-link nav-cta btn btn--full"
               >Get free trial</a
             >
@@ -73,7 +74,8 @@
   <main>
     <div class="fix-margin"></div>
     <section class="section-hero" id="hero-section">
-      <div class="hero">
+      <div
+       class="hero">
         <div class="hero-text-box">
           <h1 class="heading-primary">EDUCATION DAY</h1>
           <!-- <p class="hero-description">
@@ -202,17 +204,19 @@
       </div>
       <div class="container grid grid--2-cols grid-center-v section">
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img"
-            src="https://preview.redd.it/ss0nt3j7m6591.png?width=1920&format=png&auto=webp&s=084e3376f98961d6ae0e6ea4bc455b42643d59b6"
-            alt="" />
+
+          <img class="roadmap-img lazy-img" src="https://giffiles.alphacoders.com/154/154582.gif"alt="" />
+
         </div>
 
         <div class="roadmap-text-box">
           <!-- <p class="roadmap-stepheading">Get Started</p> -->
           <h3 class="heading-tertiory">Group Discussion</h3>
 
-          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
-          <a href="#rules-gd" class="button"><span style="color: white;">Rules</span></a>
+          
+          <a href="https://unstop.com/competition/group-discussion-competition-bharati-vidyapeeths-institute-of-computer-applications-and-management-bvicam-ne-462148"  target="_blank" class="button">Register Now</a>
+          <a href="#rules-gd" class ="button"><span style="color: white;">Rules</span></a>
+
 
         </div>
 
@@ -225,8 +229,10 @@
           <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
           <h3 class="heading-tertiory">Debate</h3>
 
-          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
-          <a href="#rules-debate" class="button"><span style="color: white;">Rules</span></a>
+          
+          <a href="https://unstop.com/competition/debate-competition-bharati-vidyapeeths-institute-of-computer-applications-and-management-bvicam-new-delhi-462065"  target="_blank" class="button">Register Now</a>
+          <a href="#rules-debate" class ="button"><span style="color: white;">Rules</span></a>
+
         </div>
 
         <!-- 3 -->
@@ -240,8 +246,10 @@
           <!-- <p class="roadmap-stepheading">Learn to Play Songs</p> -->
           <h3 class="heading-tertiory">Short Film Making</h3>
 
-          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
-          <a href="#rules-short" class="button"><span style="color: white;">Rules</span></a>
+          
+          <a href="https://unstop.com/home"  target="_blank" class="button">Register Now</a>
+          <a href="#rules-short" class ="button"><span style="color: white;">Rules</span></a>
+
         </div>
 
         <!-- 4 -->
@@ -254,8 +262,10 @@
           <!-- <p class="roadmap-stepheading">Find Inspiration.</p> -->
           <h3 class="heading-tertiory">Radio Jockeying</h3>
 
-          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
-          <a href="#rules-rj" class="button"><span style="color: white;">Rules</span></a>
+          
+          <a href="https://unstop.com/competition/radio-jockeying-competition-bharati-vidyapeeths-institute-of-computer-applications-and-management-bvicam-new-462150"  target="_blank" class="button">Register Now</a>
+          <a href="#rules-rj" class ="button"><span style="color: white;">Rules</span></a>
+
         </div>
 
         <!-- 5 -->
@@ -270,22 +280,26 @@
           <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
           <h3 class="heading-tertiory">Poster Making</h3>
 
-          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
-          <a href="#rules-poster" class="button"><span style="color: white;">Rules</span></a>
+          
+          <a href="https://unstop.com/competition/poster-making-competition-bharati-vidyapeeths-institute-of-computer-applications-and-management-bvicam-new-d-462184"  target="_blank" class="button">Register Now</a>
+          <a href="#rules-poster" class ="button"><span style="color: white;">Rules</span></a>
+
         </div>
 
         <!-- 6 -->
         <div class="roadmap-img-box section">
-          <img class="roadmap-img lazy-img"
-            src="https://64.media.tumblr.com/14cc45f9610a6ee341a45fd0d68f4dde/20d11b36022bca7b-bf/s640x960/67ab1db12ff73a530f649ac455c000945d99c0d6.gif"
-            alt="" />
+
+          <img class="roadmap-img lazy-img" src="https://media.tenor.com/JIS_KDKKsgYAAAAd/guaton-computadora.gif" alt="" />
+
         </div>
         <div class="roadmap-text-box section">
           <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
           <h3 class="heading-tertiory">BVICAM Coding Challenges</h3>
 
-          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
-          <a href="#rules-story" class="button"><span style="color: white;">Rules</span></a>
+          
+          <a href="https://unstop.com/home"  target="_blank" class="button">Register Now</a>
+          <a href="#rules-story" class ="button"><span style="color: white;">Rules</span></a>
+
         </div>
 
         <!-- 7 -->
@@ -297,8 +311,10 @@
           <!-- <p class="roadmap-stepheading">Choose Your Path</p> -->
           <h3 class="heading-tertiory">Photography</h3>
 
-          <a href="https://codepen.io/trending" target="_blank" class="button">Register Now</a>
-          <a href="#rules-photo" class="button"><span style="color: white;">Rules</span></a>
+          
+          <a href="https://unstop.com/p/photography-bharati-vidyapeeths-institute-of-computer-applications-and-management-bvicam-new-delhi-464965"  target="_blank" class="button">Register Now</a>
+          <a href="#rules-photo" class ="button"><span style="color: white;">Rules</span></a>
+
         </div>
 
       </div>
@@ -672,78 +688,90 @@
 
     <!-- Table One Starts  -->
     <section class="section section-cta" id="call-to-action">
-      <div class="container">
-        <h1> Schedule</h1>
-        <div class="table1">
-          <table class="table table-hover">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Event</th>
-                <th>Time</th>
-                <th>Event Heads</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Hackathon</td>
-                <td>8:00am - 8:00pm</td>
-                <td>
-                  <li>Yatin Dhawan - 8800282376</li>
-                  <li>Mohit Aneja - 9582602603</li>
-                </td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Nukkad Natak</td>
-                <td>11:00am Onwards</td>
-                <td>
-                  <li>Prachi Huria- 9643107097</li>
-                  <li>Abhay Yadav- 7088751301</li>
-                </td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Ad-MAD</td>
-                <td>11:00am Onwards</td>
-                <td>
-                  <li>Rohitashwa - 9870590639</li>
-                  <li>Vidita Verma - 9810239738</li>
-                </td>
-              </tr>
-              <tr>
-                <td>4</td>
-                <td>Reel Making </td>
-                <td>11:00am Onwards</td>
-                <td>
-                  <li>Komal Aggarwal - 9540615692</li>
-                  <li>Pragya Mathur- 9953759818</li>
-                </td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>Volleyball</td>
-                <td>11:00am Onwards</td>
-                <td>
-                  <li>Mukul Bisht- 8745014346</li>
-                  <li>Toshiet Daksh- 9818572712</li>
-                </td>
-              </tr>
-              <tr>
-                <td>6</td>
-                <td>Poster Making</td>
-                <td>11:00am Onwards</td>
-                <td>
-                  <li>Devanshi - 9667196843</li>
-                  <li>Harleen Kaur - 9817664972</li>
-                  <li>Aarti – 7838585592</li>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-    </section>
+    
+    <div class="container">
+      <h1> SCHEDULE</h1>
+      <div class="table1">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Event</th>
+            <th>Time</th>
+            <th>Event Heads</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Group Discussion</td>
+            <td>8:00am - 8:00pm</td>
+            <td>
+              <li>Yatin Dhawan - 8800282376</li>
+              <li>Mohit Aneja - 9582602603</li>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+              <td>Debate</td>
+              <td>11:00am Onwards</td>
+              <td>
+                <li>Prachi Huria- 9643107097</li>
+                <li>Abhay Yadav- 7088751301</li>
+              </td>
+          </tr>
+          <tr>
+            <td>3</td>
+              <td>Short Film Making</td>
+              <td>11:00am Onwards</td>
+              <td>
+                <li>Rohitashwa - 9870590639</li>
+                <li>Vidita Verma - 9810239738</li>
+              </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Radio Jockeying </td>
+            <td>11:00am Onwards</td>
+            <td>
+              <li>Komal Aggarwal - 9540615692</li>
+              <li>Pragya Mathur- 9953759818</li>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Poater Making</td>
+            <td>11:00am Onwards</td>
+            <td>
+              <li>Mukul Bisht- 8745014346</li>
+              <li>Toshiet Daksh- 9818572712</li>
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>BVICAM Coding Challenges</td>
+            <td>11:00am Onwards</td>
+            <td>
+              <li>Devanshi - 9667196843</li>
+              <li>Harleen Kaur - 9817664972</li>
+              <li>Aarti – 7838585592</li>
+            </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Photography</td>
+            <td>11:00am Onwards</td>
+            <td>
+              <li>Devanshi - 9667196843</li>
+              <li>Harleen Kaur - 9817664972</li>
+              <li>Aarti – 7838585592</li>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
     <!-- Table One Ends  -->
 
 
@@ -1427,45 +1455,8 @@
       </div>
     </div>
 
-    <!-- cartoon -->
-    <div id="rules-cartoon" class="overlay">
-      <div class="popup">
-        <h2>Digital Cartoon Making Rules</h2>
-        <a class="close" href="#">&times;</a>
-        <hr>
-        <div class="content">
-          <p>
-            <b>Registration Fees :</b> Nill
+  </div>
 
-          <ul>
-            <li>Participants can make cartoons using the following softwares – Photoshop,
-              Corel Draw, Illustrator.</li>
-            <li>Campus can provide you with computers with Photoshop , it is advisory to bring your own laptops</li>
-            <li>Cartoons must be made in A4 size.</li>
-            <li>Cartoons should be original. Plagiarism will lead to immediate
-              disqualification.</li>
-            <li>1 hour will be given to the participants to make the cartoons.</li>
-            <li>The cartoons should not be of abusive or sexual nature. They should not
-              contain hate speech and/or promote gender discrimination, communalism
-              etc. in any way.</li>
-            <li>The cartoon can be on any recent topic of national or international
-              importance.</li>
-            <li>The cartoon can have both wordplay and design.</li>
-            <li>You are advised to carry your laptops having Photoshop</li>
-          </ul>
-          <br>●Each participant must bring college I'd and show at time of registration.
-          <br>●Participant must be fully vaccinated.
-
-          <br>*T&C : Any kind of cheating will lead to disqualification.
-          <br>
-          <br>
-          <div>
-            <b>Contact: </b><a href="tel:8700629009">8700629009</a>, <a href="tel:8802229818">8802229818</a>
-          </div>
-          </p>
-        </div>
-      </div>
-    </div>
 
     <!-- ptc-->
     <div id="rules-ptc" class="overlay">
@@ -1507,50 +1498,16 @@
         </div>
       </div>
     </div>
-    <!-- volley-->
-    <div id="rules-volley" class="overlay">
-      <div class="popup">
-        <h2>Volley Ball Rules</h2>
-        <a class="close" href="#">&times;</a>
-        <hr>
-        <div class="content">
-          <p>
-            <b>Registration Fees :</b> Nill
 
-          <ul>
-            <li>Event will held on 7th October</li>
-            <li>Participants needs to be FULLY VACCINATED.</li>
-            <li> There should be only one registration from one team.</li>
-            <!-- <li>There should be at least one college student in a team.</li>  -->
-            <li>Minimum 6 and maximum 10 players are allowed in one team.</li>
-            <li>Any type of misbehavior from the participants in the college premises would lead to the direct
-              disqualification.</li>
-            <li>Teams will be divided into 2 groups. </li>
-            <li>Each team will play against every team of their respective group.</li>
-            <li>2 teams will qualify from each group for finals.</li>
-            <li>Each participant must bring college I'd and show at time of registration.
-            </li>
-            <!-- <li>Finals will be played on 12th march.</li>  -->
-            <!-- <li>Registration fee will be 600.</li> -->
-          </ul>
+  </div>
+  <!-- story -->
+  <div id="rules-story" class="overlay">
+    <div class="popup">
+      <h2>Story Telling Rules</h2>
+      <a class="close" href="#">&times;</a>
+      <hr>
+      <br class="content">
 
-          <br>*T&C : Any kind of cheating will lead to disqualification.
-          <br>
-          <br>
-          <div>
-            <b>Contact: </b><a href="tel:8745014346">8745014346</a>, <a href="tel:9818572712">9818572712</a>
-          </div>
-          </p>
-        </div>
-      </div>
-    </div>
-    <!-- story -->
-    <div id="rules-story" class="overlay">
-      <div class="popup">
-        <h2>Story Telling Rules</h2>
-        <a class="close" href="#">&times;</a>
-        <hr>
-        <br class="content">
         <br>
         <b>Registration Fees :</b> Nill<br /><br />
 
@@ -1633,7 +1590,7 @@
   </main>
 
   <!-- FAQ Section -->
-  <div class="main-wrapper">
+  <div class="main-wrapper" id="faqsection">
     <div class="container">
       <div class="faq-title">
         <h1>frequently asked questions</h1>
@@ -1733,58 +1690,12 @@
 
 
   <!-- slider -->
-  <div id=trendings class="variety_outfit ">
-    <h1>Coordinator Team</h1>
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <img
-            src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-          <h3 class="outfit1"><a href="./pages/g1.html" target="blank">shweta</a></h3>
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-          <h3 class="outfit1"><a href="./pages/g2.html" target="blank">kartik</a></h3>
-        </div>
-        <div class="swiper-slide">
-          <img
-            src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
-          <h3 class="outfit1"><a href="./pages/g4.html" target="blank">sarthak</a></h3>
-        </div>
-        <div class="swiper-slide">
-          <img src="./IMAGES/g5.jpg">
-          <h3 class="outfit1"><a href="./pages/g5.html" target="blank">abhimanyu</a></h3>
-        </div>
-        <div class="swiper-slide">
-          <img src="./IMAGES/g6.jpg">
-          <h3 class="outfit1"><a href="./pages/g6.html" target="blank">BUY NOW</a></h3>
-        </div>
-        <div class="swiper-slide">
-          <img src="./IMAGES/g7.jpg">
-          <h3 class="outfit1"><a href="./pages/g7.html" target="blank">BUY NOW</a></h3>
-        </div>
-        <div class="swiper-slide">
-          <img src="./IMAGES/g8.jpg">
-          <h3 class="outfit1"><a href="./pages/g8.html" target="blank">BUY NOW</a></h3>
-        </div>
-        <div class="swiper-slide">
-          <img src="./IMAGES/g9.jpg">
-          <h3 class="outfit1"><a href="./pages/g9.html" target="blank">BUY NOW</a></h3>
-        </div>
-        <div class="swiper-slide">
-          <img src="./IMAGES/g10.jpg">
-          <h3 class="outfit1"><a href="./pages/g10.html" target="blank">BUY NOW</a></h3>
-        </div>
-        <div class="swiper-slide">
-          <img src="./IMAGES/g11.jpg">
-          <h3 class="outfit1"><a href="./pages/g11.html" target="blank">BUY NOW</a></h3>
-        </div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-  <!-- <footer class="footer">
+
+  
+ <!-- 
+  -->
+  <footer class="footer">
+
     <div class="container grid grid--footer">
       <div class="logo-cal">
         <a class="logo-home" href="#">
@@ -1961,29 +1872,7 @@
   <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
 
-  <!-- swiper -->
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-  <!-- JAVASCRIPT -->
-  <script src="./SCRIPT/index.js"></script>
 
-  <script>
-    var swiper = new Swiper(".mySwiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: "auto",
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 800,
-        modifier: 1,
-        slideShadows: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-      },
-    });
-  </script>
 
 </body>
 
