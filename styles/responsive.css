@@ -340,7 +340,7 @@
     margin: 0 auto;
     /* padding: 0 3.2rem; */
     display: grid;
-    grid-template-columns: 55fr 45fr;
+    grid-template-columns: 1fr ;
     align-items:center;
   }
   
