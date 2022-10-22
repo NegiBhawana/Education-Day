@@ -1287,7 +1287,9 @@
      color: white;
  }
 
-.figure{
-  
+.section-cta h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
 }
 
