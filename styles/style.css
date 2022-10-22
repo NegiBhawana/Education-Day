@@ -9,8 +9,8 @@
 /* ******************************* */
 
 .header {
-  display: flex;
-  height: 9.5rem;
+   display: flex;
+  height: 7rem;
   padding: 0 6.4rem;
   align-items: center;
   justify-content: space-between;
@@ -18,11 +18,14 @@
   background: radial-gradient(circle at 8% 20%,
       rgba(213, 218, 218, 0) 0%,
       rgb(125, 199, 55) 100%);
-  position: relative;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  
 }
 
 .logo {
-  height: 6rem;
+  height: 20rem;
   margin-right: 3px;
 }
 
@@ -1036,8 +1039,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
-  box-shadow: 0 0 5px 0 rgb(255, 88, 96, 0.5);
+  background-image: linear-gradient(90deg,#A8FE39 0%, #56e269 100%);
+  box-shadow: 0 0 5px 0 rgba(88, 255, 102, 0.5);
   opacity: 0.85;
   padding: 0.6rem 1rem;
   border-radius: 9px;
@@ -1046,7 +1049,7 @@
 }
 
 .faq-item-head:hover {
-  box-shadow: 0 0 15px 0 rgb(255, 88, 96, 0.5);
+  box-shadow: 0 0 15px 0 rgba(88, 255, 124, 0.5);
 }
 
 .faq-item-icon {
@@ -1213,88 +1216,6 @@
 }
 
 
-/* slider */
-.slider {
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  border-radius: 1em;
-  width: 800px;
-  height: 500px;
-  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
-      -webkit-tap-highlight-color: transparent;
-
-}
-
-.img-container {
-  display: flex;
-  transition: transform 300ms ease-in-out;
-}
-
-.fa-solid {
-  cursor: pointer;
-  color: white;
-  position: absolute;
-  opacity: 0.75;
-  transition: opacity 100ms ease-in-out;
-  z-index: 100;
-}
-
-.fa-solid:hover {
-  opacity: 1;
-}
-
-.previous {
-  left: 4.5rem;
-}
-
-.next {
-  right: 4.5rem;
-}
 
 /* SLIDER */
-
-.variety_outfit{
-  margin-top: 2rem ;
-  background-color: white;
-  margin-bottom: 3rem;
- 
- }
- .swiper {
-     position: relative;
-     width: 100%;
-     padding-top: 20px;
-     padding-bottom: 20px;
-   }
- 
-   .swiper-slide {
-     
-     background-position: center;
-     background-size: cover;
-     width: 300px;
-     height: 400px;
-   }
- .variety_outfit h1{
-     text-align: center;
- }
-   .swiper-slide img {
-     display: block;
-     width: 100%;
-   }
- .outfit1{
-     position: absolute;
-     top: 80%;
-     left: 30%;
- 
- }
- 
- .outfit1 a{
-     background-color: #A63355;
-     font-weight: bold;
-     padding:10px 12px;
-     border-radius: 10px;
- }
- .outfit1 a:hover{
-     color: white;
- }
 
