@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Spicy+Rice&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 /*  #ffe9db/
 /* #fff4ed  
 #efcf4f*/
@@ -124,6 +125,14 @@
 
 .section-hero {
   padding: 4.8rem 0 9.8rem 0;
+/*  
+  <<<<<<< Sarthak
+  background-color: var(--primary-background-color);
+  background-image: url(../image/2730.JPG);
+  background: radial-gradient(circle at 8% 20%,
+      rgba(243, 255, 200, 0) 0%,
+      rgba(255, 231, 216, 1) 100%);
+======= */
   background-color: var(--primary-background-color); 
   background: url(https://images.unsplash.com/photo-1506513083865-434a8a207e11?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
   background-size:cover;
@@ -136,13 +145,14 @@
   );  */
   color: beige;
   height:50rem;
+/* >>>>>>> main */
   position: relative;
 }
 
 .hero {
   max-width: 130rem;
   margin: 0 auto;
-  padding: 0 3.2rem;
+  /* padding: 0 3.2rem; */
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items:center;
@@ -168,7 +178,7 @@
 
 /* hero imgaes */
 .hero-img-box {
-  justify-self:center;
+  justify-self: center;
   position: relative;
 }
 
@@ -317,7 +327,7 @@
 /* SECTION ROADMAP*/
 /* ******************************* */
 .section-roadmap {
-  padding: 9.6rem 0;
+   padding: 4rem 0; 
 }
 
 .section-roadmap .heading-secondary{
@@ -346,6 +356,16 @@
   filter:grayscale(100%);
 	transition:1s; 
 }
+
+.roadmap-img-box > img {
+  width: 350px;
+  height: 300px;
+}
+
+.poster-width {
+  width: 60%;
+}
+
 .roadmap-img-box:hover{
   filter: grayscale(0);
 	transform: scale(1.1);
@@ -365,6 +385,20 @@
 .roadmap-img {
   width: 75%;
   border-radius: 8px;
+}
+
+.roadmap-img-box-poster::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 75%;
+  left: 50%;
+  transform: translate(-58%, -42%);
+  border-radius: 8px;
+  width: 75%;
+  padding-bottom: 60%;
+  background-color: #ffe066;
+  z-index: -1;
 }
 
 .roadmap-img-box::after {
@@ -754,7 +788,7 @@
 /* ******************************* */
 
 .section-cta {
-  padding: 9.6rem 0 12.8rem 0;
+  /* padding: 9.6rem 0 12.8rem 0; */
 }
 
 .cta {
@@ -957,6 +991,130 @@
 }
 
 
+/* FAQ Section */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-wrapper {
+  overflow-x: hidden;
+  min-height: 100vh;
+  font-size: 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.faq-title h1 {
+  margin: 3rem 0 2.4rem 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.faq-content {
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 1rem;
+}
+
+.faq-right-content,
+.faq-left-content {
+  padding: 1.2rem;
+}
+
+.faq-left-content {
+  text-align: center;
+}
+
+.faq-left-content img {
+  width: 75%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.faq-left-content p {
+  font-weight: 400;
+  opacity: 0.95;
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.faq-item {
+  margin-bottom: 1rem;
+}
+
+.faq-item-head {
+  color: #fff;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  box-shadow: 0 0 5px 0 rgb(255, 88, 96, 0.5);
+  opacity: 0.85;
+  padding: 0.6rem 1rem;
+  border-radius: 9px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.faq-item-head:hover {
+  box-shadow: 0 0 15px 0 rgb(255, 88, 96, 0.5);
+}
+
+.faq-item-icon {
+  cursor: pointer;
+}
+
+.faq-item-body {
+  overflow: hidden;
+  max-height: 0;
+  background: rgba(255, 88, 96, 0.1);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.faq-item-body p {
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.show-para {
+  max-height: 1000px;
+  /* js related */
+}
+
+
+@media screen and (min-width: 800px) {
+  .faq-left-content {
+    text-align: left;
+  }
+
+  .faq-left-content img {
+    margin-left: 0;
+  }
+
+  .faq-left-content p {
+    margin-left: 0;
+    max-width: 460px;
+  }
+
+  .faq-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 
 /* timer */
 .countdown-container {
@@ -1021,6 +1179,148 @@
 .table1{
   font-size: 135%;
 }
+
+/* overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  top: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 45vw;
+  height: 65vh;
+  position: relative;
+  transition: all 5s ease-in-out;
+  overflow-y: auto;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  word-break: break-all;
+}
+
+
+/* slider */
+.slider {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 1em;
+  width: 800px;
+  height: 500px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
+      -webkit-tap-highlight-color: transparent;
+
+}
+
+.img-container {
+  display: flex;
+  transition: transform 300ms ease-in-out;
+}
+
+.fa-solid {
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  opacity: 0.75;
+  transition: opacity 100ms ease-in-out;
+  z-index: 100;
+}
+
+.fa-solid:hover {
+  opacity: 1;
+}
+
+.previous {
+  left: 4.5rem;
+}
+
+.next {
+  right: 4.5rem;
+}
+
+/* SLIDER */
+
+.variety_outfit{
+  margin-top: 2rem ;
+  background-color: white;
+  margin-bottom: 3rem;
+ 
+ }
+ .swiper {
+     position: relative;
+     width: 100%;
+     padding-top: 20px;
+     padding-bottom: 20px;
+   }
+ 
+   .swiper-slide {
+     
+     background-position: center;
+     background-size: cover;
+     width: 300px;
+     height: 400px;
+   }
+ .variety_outfit h1{
+     text-align: center;
+ }
+   .swiper-slide img {
+     display: block;
+     width: 100%;
+   }
+ .outfit1{
+     position: absolute;
+     top: 80%;
+     left: 30%;
+ 
+ }
+ 
+ .outfit1 a{
+     background-color: #A63355;
+     font-weight: bold;
+     padding:10px 12px;
+     border-radius: 10px;
+ }
+ .outfit1 a:hover{
+     color: white;
+ }
 
 .figure{
   
