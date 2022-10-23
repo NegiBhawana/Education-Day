@@ -1017,9 +1017,9 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script type="text/javascript">
     var swiper = new Swiper(".card_slider", {
-        slidesPerView: (window.innerWidth<500)?1:3,
+       // slidesPerView: (window.innerWidth<500)?1:3,
         spaceBetween: 30,
-        slidesPerGroup: 3,
+        //slidesPerGroup: 3,
         loop: true,
         loopFillGroupWithBlank: true,
         pagination: {
@@ -1029,6 +1029,20 @@
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+          480: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
         },
       });
   </script>
