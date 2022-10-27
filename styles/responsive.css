@@ -25,7 +25,7 @@
 
   .heading-primary {
     font-size: 4.8rem;
-    text-shadow: 2px rgb(67, 66, 66);
+    /* text-shadow:drop-shadow(16px 16px 10px black); */
   }
 
   .heading-secondary {
@@ -363,7 +363,7 @@
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 27px;
-    text-shadow: 2px black;
+    text-shadow:16px 16px 10px black;
   }
 
   .heading-secondary {
