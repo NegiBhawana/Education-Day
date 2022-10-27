@@ -58,7 +58,7 @@ medium:11px
   --primary-background-color: #fff4ed;
   --btn-color:#99e03bbd;
   --primary-heading-color: #0c4b65;
-  --secondary-heading-color: #c25934;
+  --secondary-heading-color: #3489c2c6;
   --primary-font: 'Open Sans', sans-serif;
 }
 
@@ -156,7 +156,7 @@ body {
 
 .heading-tertiory {
   color: var(--primary-heading-color);
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
@@ -199,7 +199,7 @@ body {
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #c85147;
+  background-color: #a1ea19a9;
 }
 
 .btn--outline:link,
@@ -227,7 +227,7 @@ body {
 }
 
 .btn-form:hover {
-  background-color: #d93b3b;
+  background-color: #d93b92df;
 }
 
 /* .lazy-img {
